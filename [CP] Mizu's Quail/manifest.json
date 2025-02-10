@@ -1,0 +1,11 @@
+{
+  "Name": "Mizu's Quail 鹌鹑",
+  "Author": "MizuJakkaru",
+  "Version": "1.3.1",
+  "Description": "添加鹌鹑1.6作为新的笼养动物。",
+  "UniqueID": "Mizu.Quail",
+  "UpdateKeys": ["Nexus:25028"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

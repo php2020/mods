@@ -1,0 +1,11 @@
+{
+    "Name": "[CP]Potion Extend 药水扩展",
+    "Author": "skeleton",
+    "Description": "Add something.",
+    "Version": "1.0.1",
+    "UpdateKeys": ["Nexus:26191"],
+    "UniqueID": "skeleton.PotionExtendCP",
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

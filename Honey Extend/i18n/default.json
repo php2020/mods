@@ -1,0 +1,20 @@
+{
+  "Heavy_Bee_House_name": "重型蜂房",
+  "Heavy_Bee_House_description": "四季都可以工作，并且产出双倍的蜂蜜，但是需要手动投入蜜源。",
+  "Royal_Jelly_name": "蜂王浆",
+  "Royal_Jelly_string": "{0} 蜂王浆",
+  "Royal_Jelly_description": "由蜂群产出的蜂王浆，能够让幼蜂蜕变为蜂后。",
+  "Mystic_Honey_name": "神秘蜂蜜",
+  "Mystic_Honey_description": "蜜蜂们产出的特别的甜汁，绝佳的魔法素材。",
+  "Mystic_Royal_Jelly_name": "神秘蜂王浆",
+  "Mystic_Royal_Jelly_description": "由蜂群产出的特别的蜂王浆，据说饲喂出的蜂后产下的幼蜂能够酿出带有魔法的蜂蜜。",
+  "Royal_Mead_name": "皇家蜂蜜酒",
+  "Royal_Mead_string": "{0} 皇家蜂蜜酒",
+  "Royal_Mead_description": "蜂王浆制成的发酵饮料，十分珍贵。适度饮用。",
+  "Mystic_Mead_name": "神秘蜂蜜酒",
+  "Mystic_Mead_description": "特别的蜂王浆制成的发酵饮料，据说在巫师之间是十分流行的饮品。适度饮用。",
+  "Hachimi_Drink_name": "蜂蜜特饮",
+  "Hachimi_Drink_description": "非常甜的饮料，你的马儿说不定会喜欢……",
+
+  "any_honey": "蜂蜜（任意）"
+}

@@ -1,0 +1,11 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "Heavy Bee House": "(BC)10 1 709 25/Home/{{ModId}}_Heavy_Bee_House 1/true/Farming 6"
+      }
+    }
+  ]
+}

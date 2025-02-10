@@ -1,0 +1,48 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/CookingRecipes",
+      "Entries": {
+        "Soymilk": "{{ModId}}_Soybean_Milk 1/9999 9999/{{ModId}}_Soymilk 1/null/",
+        "Soymilk Tea": "{{ModId}}_Soymilk 1 614 1/9999 9999/{{ModId}}_Soymilk_Tea 1/null/",
+        "Soymilk Coffee": "{{ModId}}_Soymilk 1 395 1/9999 9999/{{ModId}}_Soymilk_Coffee 1/null/",
+        "Soymilk Honey": "{{ModId}}_Soymilk 1 340 1/9999 9999/{{ModId}}_Soymilk_Honey 1/null/",
+        "Soymilk Maple": "{{ModId}}_Soymilk 1 724 1/9999 9999/{{ModId}}_Soymilk_Maple 1/null/",
+        "Soymilk Mystery": "{{ModId}}_Soymilk 1 MysticSyrup 1/9999 9999/{{ModId}}_Soymilk_Mystery 1/null/",
+        "Spicy Bean Dregs Bar": "{{ModId}}_Bean_Dregs_Bar 1 260 1/9999 9999/{{ModId}}_Spicy_Bean_Dregs_Bar 1/null/",
+        "Inari Sushi": "{{ModId}}_Fried_Tofu 1 423 1 152 1/9999 9999/{{ModId}}_Inari_Sushi 1/null/",
+        "Mapo Tofu": "{{ModId}}_Soft_Tofu 5 260 1/9999 9999/{{ModId}}_Mapo_Tofu 1/null/"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/CookingRecipeOverrides",
+      "Entries": {
+        "Mapo Tofu": {
+          "ProductQualifiedId": "{{ModId}}_Mapo_Tofu",
+          "ProductAmount": 1,
+          "Ingredients": [
+            {
+              "Type": "ContextTag",
+              "Value": "edible_tofu_item",
+              "Amount": 5,
+              "OverrideText": "{{i18n:any_tofu}}",
+              "OverrideTexturePath": "Mods\\{{ModId}}\\tofu_objects",
+              "SpriteIndex": "0",
+              "OverrideTextureRect": {
+                "Width": 16,
+                "Height": 16
+              }
+            },
+            {
+              "Type": "Item",
+              "Value": "(O)260",
+              "Amount": 1
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

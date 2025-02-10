@@ -1,0 +1,10 @@
+﻿{
+  "Name": "Livestock Choices - Continued 畜棚扩展",
+  "Author": "recon88",
+  "Version": "1.0.0",
+  "Description": "允许您购买特定类型的鸡和牛，包括蓝色、空心和金色鸡。",
+  "UniqueID": "recon88.LivestockChoicesContinued",
+  "EntryDll": "LivestockChoicesContinued.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": ["Nexus:30116"]
+}

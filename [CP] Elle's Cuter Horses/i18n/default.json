@@ -1,0 +1,12 @@
+{
+  "config.Horse Skin.name": "皮肤颜色",
+  "config.Horse Skin.description": "这是你农场里任何马都会用的皮肤颜色。只列出一个，留空或写false禁用",
+  "config.Prismatic Hair.name": "鬃毛颜色",
+  "config.Prismatic Hair.description": "为您的马皮添加棱柱形/彩虹色毛发覆盖。",
+  "config.Saddle Color.name": "马鞍颜色",
+  "config.Saddle Color.description": "这是你马上的彩色马鞍。只列出一个，留空或写false禁用",
+  "config.Menu Icon.name": "马头图标颜色跟随皮肤颜色",
+  "config.Menu Icon.description": "这将更改菜单中的马头图标以匹配您的马皮肤。只列出一个，留空或写false禁用",
+  "config.Horse Flute Recolor.name": "马笛颜色跟随皮肤颜色",
+  "config.Horse Flute Recolor.description": "这将更改马笛颜色以匹配您的马皮肤颜色。只列出一个，留空或写false禁用"
+}

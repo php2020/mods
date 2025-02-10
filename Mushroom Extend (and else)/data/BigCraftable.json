@@ -1,0 +1,23 @@
+{
+  "Changes": [
+    {
+      "LogName": "Load Sprite for Mushroom Machine",
+      "Action": "Load",
+      "Target": "Mods\\{{ModId}}\\mushroom_machine",
+      "FromFile": "assets/Mushroom_Machine.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/BigCraftables",
+      "Entries": {
+        "{{ModId}}_Mushroom_Machine": {
+          "Name": "Mushroom Machine",
+          "DisplayName": "{{i18n:Mushroom_Machine_name}}",
+          "Description": "{{i18n:Mushroom_Machine_description}}",
+          "Texture": "Mods\\{{ModId}}\\mushroom_machine",
+          "SpriteIndex": 0
+        }
+      }
+    }
+  ]
+}

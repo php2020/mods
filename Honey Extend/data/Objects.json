@@ -1,0 +1,193 @@
+{
+  "Changes": [
+    {
+      "LogName": "Load Sprite for Royal Jelly",
+      "Action": "Load",
+      "Target": "Mods\\{{ModId}}\\royal_jelly",
+      "FromFile": "assets/Royal_Jelly.png"
+    },
+    {
+      "LogName": "Load Sprite for Mystic Royal Jelly",
+      "Action": "Load",
+      "Target": "Mods\\{{ModId}}\\mystic_royal_jelly",
+      "FromFile": "assets/Mystic_Royal_Jelly.png"
+    },
+    {
+      "LogName": "Load Sprite for Mystic Honey",
+      "Action": "Load",
+      "Target": "Mods\\{{ModId}}\\mystic_honey",
+      "FromFile": "assets/Mystic_Honey.png"
+    },
+    {
+      "LogName": "Load Sprite for Royal Mead",
+      "Action": "Load",
+      "Target": "Mods\\{{ModId}}\\royal_mead",
+      "FromFile": "assets/Royal_Mead.png"
+    },
+    {
+      "LogName": "Load Sprite for Mystic Mead",
+      "Action": "Load",
+      "Target": "Mods\\{{ModId}}\\mystic_mead",
+      "FromFile": "assets/Mystic_Mead.png"
+    },
+    {
+      "LogName": "Load Sprite for Hachimi Drink",
+      "Action": "Load",
+      "Target": "Mods\\{{ModId}}\\hachimi_drink",
+      "FromFile": "assets/Hachimi_Drink.png"
+    },
+    {
+      "LogName": "Objects Data",
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "{{ModId}}_Royal_Jelly": {
+          "Name": "Royal Jelly",
+          "DisplayName": "{{i18n:Royal_Jelly_name}}",
+          "Description": "{{i18n:Royal_Jelly_description}}",
+          "IsDrink": true,
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 100,
+          "Texture": "Mods\\{{ModId}}\\royal_jelly",
+          "SpriteIndex": "0",
+          "Edibility": -300,
+          "ContextTags": [
+            "honey_item",
+            "jelly_item"
+          ],
+          "CustomFields": {}
+        },
+        "{{ModId}}_Mystic_Honey": {
+          "Name": "Mystic Honey",
+          "DisplayName": "{{i18n:Mystic_Honey_name}}",
+          "Description": "{{i18n:Mystic_Honey_description}}",
+          "IsDrink": true,
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 100,
+          "Texture": "Mods\\{{ModId}}\\mystic_honey",
+          "SpriteIndex": "0",
+          "Edibility": -300,
+          "ContextTags": [
+            "honey_item"
+          ],
+          "CustomFields": {}
+        },
+        "{{ModId}}_Mystic_Royal_Jelly": {
+          "Name": "Mystic Royal Jelly",
+          "DisplayName": "{{i18n:Mystic_Royal_Jelly_name}}",
+          "Description": "{{i18n:Mystic_Royal_Jelly_description}}",
+          "IsDrink": true,
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 100,
+          "Texture": "Mods\\{{ModId}}\\mystic_royal_jelly",
+          "SpriteIndex": "0",
+          "Edibility": -300,
+          "ContextTags": [
+            "honey_item",
+            "jelly_item"
+          ],
+          "CustomFields": {}
+        },
+        "{{ModId}}_Royal_Mead": {
+          "Name": "Royal Mead",
+          "DisplayName": "{{i18n:Royal_Mead_name}}",
+          "Description": "{{i18n:Royal_Mead_description}}",
+          "IsDrink": true,
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 100,
+          "Texture": "Mods\\{{ModId}}\\royal_mead",
+          "SpriteIndex": "0",
+          "Edibility": 35,
+          "ContextTags": [
+             "alcohol_item"
+          ],
+          "Buffs": [
+            {
+              "Id": "Tipsy",
+              "BuffId": "17",
+              "IconTexture": null,
+              "Duration": 0,
+              "IsDebuff": false,
+              "GlowColor": null,
+              "CustomAttributes": null,
+              "CustomFields": null
+            }
+          ],
+          "CustomFields": {}
+        },
+        "{{ModId}}_Mystic_Mead": {
+          "Name": "Mystic Mead",
+          "DisplayName": "{{i18n:Mystic_Mead_name}}",
+          "Description": "{{i18n:Mystic_Mead_description}}",
+          "IsDrink": true,
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 100,
+          "Texture": "Mods\\{{ModId}}\\mystic_mead",
+          "SpriteIndex": "0",
+          "Edibility": 40,
+          "ContextTags": [
+             "alcohol_item"
+          ],
+          "Buffs": [
+            {
+              "Duration": 200,
+              "CustomAttributes": {
+                "LuckLevel": 3,
+                "Speed": 1
+              }
+            },
+            {
+              "Id": "Tipsy",
+              "BuffId": "17",
+              "IconTexture": null,
+              "Duration": 0,
+              "IsDebuff": false,
+              "GlowColor": null,
+              "CustomAttributes": null,
+              "CustomFields": null
+            }
+          ],
+          "CustomFields": {}
+        },
+        "{{ModId}}_Hachimi_Drink": {
+          "Name": "Hachimi Drink",
+          "DisplayName": "{{i18n:Hachimi_Drink_name}}",
+          "Description": "{{i18n:Hachimi_Drink_description}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 200,
+          "Texture": "Mods\\{{ModId}}\\hachimi_drink",
+          "SpriteIndex": 0,
+          "Edibility": 40,
+          "IsDrink": true,
+          "ExcludeFromFishingCollection": true,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true,
+          "ContextTags": [],
+          "Buffs": [
+            {
+              "Duration": 200,
+              "CustomAttributes": {
+                "LuckLevel": 1,
+                "Speed": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Objects",
+      "Entries": {
+        "{{ModId}}_Royal_Jelly": "{{i18n: Royal_Jelly_string}}",
+        "{{ModId}}_Royal_Mead": "{{i18n: Royal_Mead_string}}"
+      }
+    }
+  ]
+}

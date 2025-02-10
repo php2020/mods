@@ -1,0 +1,25 @@
+{
+    "config.section.display.name": "显示",
+
+    "config.hour_format.name": "小时格式",
+    "config.hour_format.tooltip": "时钟时间中的小时应如何格式化",
+    "config.hour_format.values.12": "12 小时制",
+    "config.hour_format.values.24": "24 小时制（1-2 位数字）",
+    "config.hour_format.values.24_fixed": "24 小时制（固定 2 位数字）",
+
+    "config.minute_format.name": "分钟格式",
+    "config.minute_format.tooltip": "时钟时间中的分钟应如何格式化",
+    "config.minute_format.values.each_minute": "每分钟更新",
+    "config.minute_format.values.vanilla": "每 10 分钟更新",
+
+    "config.am_pm_position.name": "上午/下午 位置",
+    "config.am_pm_position.tooltip": "上午/下午 标识应显示在时间的哪个位置",
+    "config.am_pm_position.values.after": "时间后",
+    "config.am_pm_position.values.before": "时间前",
+    "config.am_pm_position.values.none": "不显示",
+
+    "config.section.extra.name": "额外",
+
+    "config.disable_clock.name": "禁用时钟",
+    "config.disable_clock.tooltip": "作为挑战模式，将时钟文本替换为 ??:??"
+}

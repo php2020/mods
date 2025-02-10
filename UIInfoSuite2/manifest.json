@@ -1,0 +1,10 @@
+﻿{
+  "Name": "UI Info Suite 2 UI界面选项",
+  "Author": "Annosz",
+  "Version": "2.3.7",
+  "Description": "为用户界面添加有用信息。基于Cdaragorn出色的UI信息套件",
+  "UniqueID": "Annosz.UiInfoSuite2",
+  "EntryDll": "UIInfoSuite2.dll",
+  "MinimumApiVersion": "4.0.5",
+  "UpdateKeys": ["GitHub:Annosz/UIInfoSuite2", "Nexus:7098"]
+}

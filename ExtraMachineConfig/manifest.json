@@ -1,0 +1,10 @@
+﻿{
+  "Name": "ExtraMachineConfig 配置",
+  "Author": "selph",
+  "Version": "1.12.2",
+  "Description": "为机器工匠配方和其他杂项数据结构添加额外功能。",
+  "UniqueID": "selph.ExtraMachineConfig",
+  "EntryDll": "ExtraMachineConfig.dll",
+  "MinimumApiVersion": "4.0.9",
+  "UpdateKeys": ["Nexus:22256"]
+}

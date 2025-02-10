@@ -1,0 +1,13 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/CookingRecipes",
+      "Entries": {
+        "Slime Pudding": "766 30/9999 9999/{{ModId}}_Slime_Pudding 1/s Combat 6/",
+        "Slime Mousse": "340 1 -6 1 766 25/9999 9999/{{ModId}}_Slime_Mousse 1/null/",
+        "Tiger Omelette": "{{ModId}}_Tiger_Slime_Mayonnaise 1 423 1/9999 9999/{{ModId}}_Tiger_Omelette 1/null/"
+      }
+    }
+  ]
+}

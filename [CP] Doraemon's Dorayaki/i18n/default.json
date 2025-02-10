@@ -1,0 +1,23 @@
+{
+//Food//
+    "Pumpkin_Dorayaki.DisplayName": "Pumpkin dorayaki",
+    "Pumpkin_Dorayaki.Description": "No red beans? Use pumpkin!",
+    "Matcha_Dorayaki.DisplayName": "Matcha Dorayaki",
+    "Matcha_Dorayaki.Description": "Slightly bitter, refresh your breath!",
+    "Blueberry_Dorayaki.DisplayName": "Blueberry Dorayaki",
+    "Blueberry_Dorayaki.Description": "Sour and sweet, this is summer in a bite!",
+    "Strawberry_Dorayaki.DisplayName": "Strawberry Dorayaki",
+    "Strawberry_Dorayaki.Description": "This is the reward for springtime labor!",
+    "Cream_Dorayaki.DisplayName": "Cream Dorayaki",
+    "Cream_Dorayaki.Description": "Be careful, it might spill out!",
+    "Orange_Dorayaki.DisplayName": "Orange Dorayaki",
+    "Orange_Dorayaki.Description": "Orange, my favorite and lucky color!",
+    "Powdermelon_Dorayaki.DisplayName": "Powdermelon Dorayaki",
+    "Powdermelon_Dorayaki.Description": "Is this ice cream? Awesome!",
+    "Coconut_Ash_Dorayaki.DisplayName": "Coconut Ash Dorayaki",
+    "Coconut_Ash_Dorayaki.Description": "Coal? Coconut flavor! Delicious!",
+
+//Machine//
+    "Gourmet_Table_Cloth_DisplayName": "Gourmet Table Cloth!",
+    "Gourmet_Table_Cloth_Description": "What will appear tomorrow?"
+}

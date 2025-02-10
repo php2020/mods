@@ -1,0 +1,21 @@
+{
+    "Name": "[CP]Tofu Extend 豆腐工艺",
+    "Author": "skeleton",
+    "Description": "添加了豆腐模组",
+    "Version": "1.0.2",
+    "UpdateKeys": ["Nexus:27159"],
+    "UniqueID": "skeleton.TofuExtendCP",
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+        {
+            "UniqueID": "spacechase0.SpaceCore",
+            "IsRequired": true
+        },
+        {
+            "UniqueID": "selph.ExtraMachineConfig",
+            "IsRequired": true
+        }
+    ]
+}

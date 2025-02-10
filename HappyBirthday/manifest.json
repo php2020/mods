@@ -1,0 +1,20 @@
+{
+    "Name": "Happy Birthday 我的生日",
+    "Author": "Alpha_Omegasis",
+    "Version": "3.19.2",
+    "Description": "添加玩家生日模组",
+    "UniqueID": "Omegasis.HappyBirthday",
+    "EntryDll": "HappyBirthday.dll",
+    "MinimumApiVersion": "4.0.0",
+    "UpdateKeys": ["Nexus:520"],
+    "Dependencies": [
+        {
+            "UniqueID": "Omegasis.StardustCore",
+            "MinimumVersion": "3.0.1"
+        },
+        {
+            "UniqueID": "shoaib.stardewaccess",
+            "IsRequired": false
+        }
+    ]
+}

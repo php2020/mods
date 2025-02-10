@@ -1,0 +1,11 @@
+{
+  "Name": "[CP] Doraemon’s Dorayaki 铜锣烧",
+  "Author": "Arcturusyu",
+  "Version": "3.0.1",
+  "Description": "添加一些哆啦A梦的食谱",
+  "UniqueID": "Arcturusyu.Doraemon_recipe",
+  "UpdateKeys": ["Nexus:27722"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

@@ -1,0 +1,730 @@
+{
+  "Changes": [
+    {
+      "LogName": "Load Sprite for Tofu Objects",
+      "Action": "Load",
+      "Target": "Mods\\{{ModId}}\\tofu_objects",
+      "FromFile": "assets/Tofu_Objects.png"
+    },
+
+    {
+      "LogName": "Objects Data",
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "{{ModId}}_Soft_Tofu": {
+          "Name": "Soft Tofu",
+          "DisplayName": "{{i18n:Soft_Tofu_name}}",
+          "Description": "{{i18n:Soft_Tofu_description}}",
+          "IsDrink": false,
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 90,
+          "Texture": "Mods\\{{ModId}}\\tofu_objects",
+          "SpriteIndex": "0",
+          "Edibility": 10,
+          "ContextTags": [
+            "tofu_item",
+            "edible_tofu_item"
+          ],
+          "CustomFields": {}
+        },
+        "{{ModId}}_Smoked_Tofu": {
+          "Name": "Smoked Tofu",
+          "DisplayName": "{{i18n:Smoked_Tofu_name}}",
+          "Description": "{{i18n:Smoked_Tofu_description}}",
+          "IsDrink": false,
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 1,
+          "Texture": "Mods\\{{ModId}}\\tofu_objects",
+          "SpriteIndex": "0",
+          "Edibility": 15,
+          "ContextTags": [
+            "tofu_item",
+            "edible_tofu_item",
+            "food_nonvegan",
+            "draw_preserve_sprite",
+            "smoked_item"
+          ],
+          "CustomFields": {}
+        },
+        "{{ModId}}_Firm_Tofu": {
+          "Name": "Firm_Tofu",
+          "DisplayName": "{{i18n:Firm_Tofu_name}}",
+          "Description": "{{i18n:Firm_Tofu_description}}",
+          "IsDrink": false,
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 135,
+          "Texture": "Mods\\{{ModId}}\\tofu_objects",
+          "SpriteIndex": "1",
+          "Edibility": 10,
+          "ContextTags": [
+            "tofu_item",
+            "edible_tofu_item"
+          ],
+          "CustomFields": {}
+        },
+        "{{ModId}}_Stone_Tofu": {
+          "Name": "Stone Tofu",
+          "DisplayName": "{{i18n:Stone_Tofu_name}}",
+          "Description": "{{i18n:Stone_Tofu_description}}",
+          "IsDrink": false,
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 340,
+          "Texture": "Mods\\{{ModId}}\\tofu_objects",
+          "SpriteIndex": "2",
+          "Edibility": -300,
+          "ContextTags": [
+            "tofu_item"
+          ],
+          "CustomFields": {}
+        },
+        "{{ModId}}_Iron_Tofu": {
+          "Name": "Iron Tofu",
+          "DisplayName": "{{i18n:Iron_Tofu_name}}",
+          "Description": "{{i18n:Iron_Tofu_description}}",
+          "IsDrink": false,
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 810,
+          "Texture": "Mods\\{{ModId}}\\tofu_objects",
+          "SpriteIndex": "3",
+          "Edibility": -300,
+          "ContextTags": [
+            "tofu_item"
+          ],
+          "CustomFields": {}
+        },
+        "{{ModId}}_Iridium_Tofu": {
+          "Name": "Iridium Tofu",
+          "DisplayName": "{{i18n:Iridium_Tofu_name}}",
+          "Description": "{{i18n:Iridium_Tofu_description}}",
+          "IsDrink": false,
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 1900,
+          "Texture": "Mods\\{{ModId}}\\tofu_objects",
+          "SpriteIndex": "4",
+          "Edibility": -300,
+          "ContextTags": [
+            "tofu_item"
+          ],
+          "CustomFields": {}
+        },
+        "{{ModId}}_Egg_Tofu": {
+          "Name": "Egg Tofu",
+          "DisplayName": "{{i18n:Egg_Tofu_name}}",
+          "Description": "{{i18n:Egg_Tofu_description}}",
+          "IsDrink": false,
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 380,
+          "Texture": "Mods\\{{ModId}}\\tofu_objects",
+          "SpriteIndex": "5",
+          "Edibility": 30,
+          "ContextTags": [
+            "tofu_item",
+            "edible_tofu_item"
+          ],
+          "CustomFields": {}
+        },
+        "{{ModId}}_Void_Egg_Tofu": {
+          "Name": "Void Egg Tofu",
+          "DisplayName": "{{i18n:Void_Egg_Tofu_name}}",
+          "Description": "{{i18n:Void_Egg_Tofu_description}}",
+          "IsDrink": false,
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 275,
+          "Texture": "Mods\\{{ModId}}\\tofu_objects",
+          "SpriteIndex": "6",
+          "Edibility": -30,
+          "ContextTags": [
+            "tofu_item",
+            "edible_tofu_item"
+          ],
+          "CustomFields": {}
+        },
+        "{{ModId}}_Ancient_Egg_Tofu": {
+          "Name": "Ancient Egg Tofu",
+          "DisplayName": "{{i18n:Ancient_Egg_Tofu_name}}",
+          "Description": "{{i18n:Ancient_Egg_Tofu_description}}",
+          "IsDrink": false,
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 1700,
+          "Texture": "Mods\\{{ModId}}\\tofu_objects",
+          "SpriteIndex": "7",
+          "Edibility": 50,
+          "ContextTags": [
+            "tofu_item",
+            "edible_tofu_item"
+          ],
+          "Buffs": [
+            {
+              "Duration": 200,
+              "CustomAttributes": {
+                "FarmingLevel": 0,
+                "FishingLevel": 0,
+                "MiningLevel": 0.5,
+                "LuckLevel": 0,
+                "ForagingLevel": 0,
+                "MaxStamina": 0,
+                "MagneticRadius": 64,
+                "Speed": 0,
+                "Defense": 0,
+                "Attack": 0
+              }
+            }
+          ],
+          "CustomFields": {}
+        },
+        "{{ModId}}_Milk_Tofu": {
+          "Name": "Milk Tofu",
+          "DisplayName": "{{i18n:Milk_Tofu_name}}",
+          "Description": "{{i18n:Milk_Tofu_description}}",
+          "IsDrink": false,
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 356,
+          "Texture": "Mods\\{{ModId}}\\tofu_objects",
+          "SpriteIndex": "8",
+          "Edibility": 30,
+          "ContextTags": [
+            "tofu_item",
+            "edible_tofu_item",
+            "cheese_item"
+          ],
+          "CustomFields": {}
+        },
+        "{{ModId}}_Stinky_Tofu": {
+          "Name": "Stinky Tofu",
+          "DisplayName": "{{i18n:Stinky_Tofu_name}}",
+          "Description": "{{i18n:Stinky_Tofu_description}}",
+          "IsDrink": false,
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 230,
+          "Texture": "Mods\\{{ModId}}\\tofu_objects",
+          "SpriteIndex": "9",
+          "Edibility": 24,
+          "ContextTags": [
+            "tofu_item",
+            "edible_tofu_item"
+          ],
+          "CustomFields": {},
+          "Buffs": [
+            {
+              "Duration": 200,
+              "CustomAttributes": {
+                "FarmingLevel": 0,
+                "FishingLevel": 0,
+                "MiningLevel": 0,
+                "LuckLevel": 0,
+                "ForagingLevel": 0,
+                "MaxStamina": -10,
+                "MagneticRadius": 0,
+                "Speed": 0,
+                "Defense": 0,
+                "Attack": 0
+              }
+            },
+            {
+              "Id": "Monster Musk",
+              "BuffId": "24",
+              "Duration": 100,
+              "IsDebuff": false
+            }
+          ]
+        },
+        "{{ModId}}_Fried_Tofu": {
+          "Name": "Fried Tofu",
+          "DisplayName": "{{i18n:Fried_Tofu_name}}",
+          "Description": "{{i18n:Fried_Tofu_description}}",
+          "IsDrink": false,
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 90,
+          "Texture": "Mods\\{{ModId}}\\tofu_objects",
+          "SpriteIndex": "10",
+          "Edibility": 26,
+          "ContextTags": [
+            "tofu_item",
+            "edible_tofu_item"
+          ],
+          "CustomFields": {}
+        },
+        "{{ModId}}_Dried_Tofu": {
+          "Name": "Dried_Tofu",
+          "DisplayName": "{{i18n:Dried_Tofu_name}}",
+          "Description": "{{i18n:Dried_Tofu_description}}",
+          "IsDrink": false,
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 1,
+          "Texture": "Mods\\{{ModId}}\\tofu_objects",
+          "SpriteIndex": "11",
+          "Edibility": 26,
+          "ContextTags": [
+            "tofu_item",
+            "edible_tofu_item"
+          ],
+          "CustomFields": {}
+        },
+        "{{ModId}}_Soybean_Seed": {
+          "Name": "Soybean Seed",
+          "DisplayName": "{{i18n:Soybean_Seed_name}}",
+          "Description": "{{i18n:Soybean_Seed_description}}",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price": 20,
+          "Texture": "Mods\\{{ModId}}\\tofu_objects",
+          "SpriteIndex": "16",
+          "Edibility": -300,
+          "IsDrink": false,
+          "ExcludeFromFishingCollection": true,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true,
+          "ContextTags": []
+        },
+        "{{ModId}}_Soybean": {
+          "Name": "Soybean",
+          "DisplayName": "{{i18n:Soybean_name}}",
+          "Description": "{{i18n:Soybean_description}}",
+          "Type": "Basic",
+          "Category": -75,
+          "Price": 40,
+          "Texture": "Mods\\{{ModId}}\\tofu_objects",
+          "SpriteIndex": "17",
+          "Edibility": 10,
+          "IsDrink": false,
+          "ContextTags": [
+            "color_yellow"
+          ]
+        },
+        "{{ModId}}_Soybean_Milk": {
+          "Name": "Soybean Milk",
+          "DisplayName": "{{i18n:Soybean_Milk_name}}",
+          "Description": "{{i18n:Soybean_Milk_description}}",
+          "IsDrink": true,
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 120,
+          "Texture": "Mods\\{{ModId}}\\tofu_objects",
+          "SpriteIndex": "18",
+          "Edibility": 20,
+          "ContextTags": [],
+          "Buffs": [
+            {
+              "Duration": 200,
+              "CustomAttributes": {
+                "FarmingLevel": 0,
+                "FishingLevel": 0,
+                "MiningLevel": 0.5,
+                "LuckLevel": 0,
+                "ForagingLevel": 0,
+                "MaxStamina": 20,
+                "MagneticRadius": 0,
+                "Speed": 0.5,
+                "Defense": 0,
+                "Attack": 0
+              }
+            }
+          ],
+          "CustomFields": {}
+        },
+        "{{ModId}}_Soymilk": {
+          "Name": "Soymilk",
+          "DisplayName": "{{i18n:Soymilk_name}}",
+          "Description": "{{i18n:Soymilk_description}}",
+          "IsDrink": true,
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 120,
+          "Texture": "Mods\\{{ModId}}\\tofu_objects",
+          "SpriteIndex": "19",
+          "Edibility": 20,
+          "ContextTags": [
+            "soymilk_item"
+          ],
+          "Buffs": [
+            {
+              "Duration": 400,
+              "CustomAttributes": {
+                "FarmingLevel": 0,
+                "FishingLevel": 0,
+                "MiningLevel": 0,
+                "LuckLevel": 0,
+                "ForagingLevel": 0,
+                "MaxStamina": 40,
+                "MagneticRadius": 0,
+                "Speed": 1,
+                "Defense": 0,
+                "Attack": 0
+              }
+            }
+          ],
+          "CustomFields": {}
+        },
+        "{{ModId}}_Fruit_Soymilk": {
+          "Name": "Fruit_Soymilk",
+          "DisplayName": "{{i18n:Fruit_Soymilk_name}}",
+          "Description": "{{i18n:Fruit_Soymilk_description}}",
+          "IsDrink": true,
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 120,
+          "Texture": "Mods\\{{ModId}}\\tofu_objects",
+          "SpriteIndex": "19",
+          "Edibility": 20,
+          "ContextTags": [],
+          "Buffs": [
+            {
+              "Duration": 400,
+              "CustomAttributes": {
+                "FarmingLevel": 0,
+                "FishingLevel": 0,
+                "MiningLevel": 0,
+                "LuckLevel": 0,
+                "ForagingLevel": 0,
+                "MaxStamina": 40,
+                "MagneticRadius": 0,
+                "Speed": 1,
+                "Defense": 5,
+                "Attack": 0
+              }
+            }
+          ],
+          "CustomFields": {}
+        },
+        "{{ModId}}_Bean_Dregs_Bar": {
+          "Name": "Bean Dregs Bar",
+          "DisplayName": "{{i18n:Bean_Dregs_Bar_name}}",
+          "Description": "{{i18n:Bean_Dregs_Bar_description}}",
+          "IsDrink": false,
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 40,
+          "Texture": "Mods\\{{ModId}}\\tofu_objects",
+          "SpriteIndex": "13",
+          "Edibility": 5,
+          "ContextTags": [],
+          "Buffs": [
+            {
+              "Duration": 200,
+              "CustomAttributes": {
+                "FarmingLevel": 0,
+                "FishingLevel": 0,
+                "MiningLevel": 0,
+                "LuckLevel": 0,
+                "ForagingLevel": 0,
+                "MaxStamina": 60,
+                "MagneticRadius": 0,
+                "Speed": 0,
+                "Defense": 0,
+                "Attack": 0
+              }
+            }
+          ],
+          "CustomFields": {}
+        },
+        "{{ModId}}_Spicy_Bean_Dregs_Bar": {
+          "Name": "Spicy Bean Dregs Bar",
+          "DisplayName": "{{i18n:Spicy_Bean_Dregs_Bar_name}}",
+          "Description": "{{i18n:Spicy_Bean_Dregs_Bar_description}}",
+          "IsDrink": true,
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 40,
+          "Texture": "Mods\\{{ModId}}\\tofu_objects",
+          "SpriteIndex": "14",
+          "Edibility": 10,
+          "ContextTags": [],
+          "Buffs": [
+            {
+              "Duration": 400,
+              "CustomAttributes": {
+                "FarmingLevel": 0,
+                "FishingLevel": 0,
+                "MiningLevel": 0,
+                "LuckLevel": 0,
+                "ForagingLevel": 0,
+                "MaxStamina": 60,
+                "MagneticRadius": 0,
+                "Speed": 1,
+                "Defense": 0,
+                "Attack": 0
+              }
+            }
+          ],
+          "CustomFields": {}
+        },
+        "{{ModId}}_Soymilk_Tea": {
+          "Name": "Soymilk Tea",
+          "DisplayName": "{{i18n:Soymilk_Tea_name}}",
+          "Description": "{{i18n:Soymilk_Tea_description}}",
+          "IsDrink": true,
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 120,
+          "Texture": "Mods\\{{ModId}}\\tofu_objects",
+          "SpriteIndex": "21",
+          "Edibility": 25,
+          "ContextTags": [],
+          "Buffs": [
+            {
+              "Duration": 400,
+              "CustomAttributes": {
+                "FarmingLevel": 0,
+                "FishingLevel": 0,
+                "MiningLevel": 0,
+                "LuckLevel": 0,
+                "ForagingLevel": 0,
+                "MaxStamina": 80,
+                "MagneticRadius": 0,
+                "Speed": 1.5,
+                "Defense": 0,
+                "Attack": 0
+              }
+            }
+          ],
+          "CustomFields": {}
+        },
+        "{{ModId}}_Soymilk_Coffee": {
+          "Name": "Soymilk Coffee",
+          "DisplayName": "{{i18n:Soymilk_Coffee_name}}",
+          "Description": "{{i18n:Soymilk_Coffee_description}}",
+          "IsDrink": true,
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 120,
+          "Texture": "Mods\\{{ModId}}\\tofu_objects",
+          "SpriteIndex": "22",
+          "Edibility": 25,
+          "ContextTags": [],
+          "Buffs": [
+            {
+              "Duration": 400,
+              "CustomAttributes": {
+                "FarmingLevel": 0,
+                "FishingLevel": 0,
+                "MiningLevel": 0,
+                "LuckLevel": 0,
+                "ForagingLevel": 0,
+                "MaxStamina": 60,
+                "MagneticRadius": 0,
+                "Speed": 2.5,
+                "Defense": 0,
+                "Attack": 0
+              }
+            }
+          ],
+          "CustomFields": {}
+        },
+        "{{ModId}}_Soymilk_Honey": {
+          "Name": "Soymilk Honey",
+          "DisplayName": "{{i18n:Soymilk_Honey_name}}",
+          "Description": "{{i18n:Soymilk_Honey_description}}",
+          "IsDrink": true,
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 120,
+          "Texture": "Mods\\{{ModId}}\\tofu_objects",
+          "SpriteIndex": "23",
+          "Edibility": 25,
+          "ContextTags": [],
+          "Buffs": [
+            {
+              "Duration": 400,
+              "CustomAttributes": {
+                "FarmingLevel": 0,
+                "FishingLevel": 0,
+                "MiningLevel": 0,
+                "LuckLevel": 0,
+                "ForagingLevel": 4,
+                "MaxStamina": 40,
+                "MagneticRadius": 0,
+                "Speed": 1,
+                "Defense": 0,
+                "Attack": 0
+              }
+            }
+          ],
+          "CustomFields": {}
+        },
+        "{{ModId}}_Soymilk_Mystery": {
+          "Name": "Soymilk Mystery",
+          "DisplayName": "{{i18n:Soymilk_Mystery_name}}",
+          "Description": "{{i18n:Soymilk_Mystery_description}}",
+          "IsDrink": true,
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 120,
+          "Texture": "Mods\\{{ModId}}\\tofu_objects",
+          "SpriteIndex": "24",
+          "Edibility": 25,
+          "ContextTags": [],
+          "Buffs": [
+            {
+              "Duration": 400,
+              "CustomAttributes": {
+                "FarmingLevel": 0,
+                "FishingLevel": 0,
+                "MiningLevel": 0,
+                "LuckLevel": 5,
+                "ForagingLevel": 0,
+                "MaxStamina": 40,
+                "MagneticRadius": 0,
+                "Speed": 1,
+                "Defense": 0,
+                "Attack": 0
+              }
+            }
+          ],
+          "CustomFields": {}
+        },
+        "{{ModId}}_Soymilk_Maple": {
+          "Name": "Soymilk Maple",
+          "DisplayName": "{{i18n:Soymilk_Maple_name}}",
+          "Description": "{{i18n:Soymilk_Maple_description}}",
+          "IsDrink": true,
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 120,
+          "Texture": "Mods\\{{ModId}}\\tofu_objects",
+          "SpriteIndex": "25",
+          "Edibility": 25,
+          "ContextTags": [],
+          "Buffs": [
+            {
+              "Duration": 400,
+              "CustomAttributes": {
+                "FarmingLevel": 0,
+                "FishingLevel": 0,
+                "MiningLevel": 0,
+                "LuckLevel": 0,
+                "ForagingLevel": 0,
+                "MaxStamina": 40,
+                "MagneticRadius": 0,
+                "Speed": 1,
+                "Defense": 0,
+                "Attack": 5
+              }
+            }
+          ],
+          "CustomFields": {}
+        },
+        "{{ModId}}_Inari_Sushi": {
+          "Name": "Inari Sushi",
+          "DisplayName": "{{i18n:Inari_Sushi_name}}",
+          "Description": "{{i18n:Inari_Sushi_description}}",
+          "IsDrink": true,
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 120,
+          "Texture": "Mods\\{{ModId}}\\tofu_objects",
+          "SpriteIndex": "26",
+          "Edibility": 30,
+          "ContextTags": [],
+          "Buffs": [
+            {
+              "Duration": 400,
+              "CustomAttributes": {
+                "FarmingLevel": 5,
+                "FishingLevel": 0,
+                "MiningLevel": 0,
+                "LuckLevel": 0,
+                "ForagingLevel": 0,
+                "MaxStamina": 10,
+                "MagneticRadius": 0,
+                "Speed": 0,
+                "Defense": 0,
+                "Attack": 5
+              }
+            }
+          ],
+          "CustomFields": {}
+        },
+        "{{ModId}}_Mapo_Tofu": {
+          "Name": "Mapo Tofu",
+          "DisplayName": "{{i18n:Mapo_Tofu_name}}",
+          "Description": "{{i18n:Mapo_Tofu_description}}",
+          "IsDrink": true,
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 200,
+          "Texture": "Mods\\{{ModId}}\\tofu_objects",
+          "SpriteIndex": "27",
+          "Edibility": 50,
+          "ContextTags": [],
+          "Buffs": [
+            {
+              "Duration": 400,
+              "CustomAttributes": {
+                "FarmingLevel": 5,
+                "FishingLevel": 0,
+                "MiningLevel": 0,
+                "LuckLevel": 1,
+                "ForagingLevel": 0,
+                "MaxStamina": 0,
+                "MagneticRadius": 0,
+                "Speed": 1,
+                "Defense": 10,
+                "Attack": 1
+              }
+            }
+          ],
+          "CustomFields": {}
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Objects",
+      "Entries": {
+        "{{ModId}}_Egg_Tofu": "{{i18n: Egg_Tofu_string}}",
+        "{{ModId}}_Milk_Tofu": "{{i18n: Milk_Tofu_string}}",
+        "{{ModId}}_Fried_Tofu": "{{i18n: Fried_Tofu_string}}",
+        "{{ModId}}_Smoked_Tofu": "{{i18n: Smoked_Tofu_string}}",
+        "{{ModId}}_Dried_Tofu": "{{i18n: Dried_Tofu_string}}",
+        "{{ModId}}_Fruit_Soymilk": "{{i18n: Fruit_Soymilk_string}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [
+        "247",
+        "ContextTags"
+      ],
+      "Entries": {
+        "#-1": "oil_item"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [
+        "432",
+        "ContextTags"
+      ],
+      "Entries": {
+        "#-1": "oil_item"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [
+        "772",
+        "ContextTags"
+      ],
+      "Entries": {
+        "#-1": "oil_item"
+      }
+    }
+  ]
+}

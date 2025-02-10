@@ -1,0 +1,11 @@
+{
+    "Name": "[CP]Slime Extend 史莱姆扩展",
+    "Author": "skeleton",
+    "Description": "添加一些关于史莱姆相关的东西",
+    "Version": "1.0.0",
+    "UpdateKeys": ["Nexus:26457"],
+    "UniqueID": "skeleton.SlimeExtendCP",
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

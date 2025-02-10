@@ -1,0 +1,26 @@
+{
+  "Name": "Cornucopia - More Flowers 更多花朵",
+  "Author": "Cornucopia",
+  "Description": "Stardew Valley 1.6内容修补器的额外花朵模组",
+  "Version": "1.5.4",
+  "MinimumApiVersion": "4.0.0",
+  "UniqueID": "Cornucopia.MoreFlowers",
+  "UpdateKeys": ["Nexus: 20290"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "furyx639.CustomBush",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "spacechase0.SpaceCore",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "mistyspring.ItemExtensions",
+      "IsRequired": false
+    }
+  ]
+}

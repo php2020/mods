@@ -1,0 +1,23 @@
+{
+  "Changes": [
+    {
+      "LogName": "Load Sprite for Statue of Crucible",
+      "Action": "Load",
+      "Target": "Mods\\{{ModId}}\\crucible",
+      "FromFile": "assets/Crucible.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/BigCraftables",
+      "Entries": {
+        "{{ModId}}_Crucible": {
+          "Name": "Crucible",
+          "DisplayName": "{{i18n:Crucible_name}}",
+          "Description": "{{i18n:Crucible_description}}",
+          "Texture": "Mods\\{{ModId}}\\crucible",
+          "SpriteIndex": 0
+        }
+      }
+    }
+  ]
+}

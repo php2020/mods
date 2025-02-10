@@ -1,0 +1,23 @@
+{
+  "Changes": [
+    {
+      "LogName": "Load Sprite for Heavy Bee House",
+      "Action": "Load",
+      "Target": "Mods\\{{ModId}}\\heavy_bee_house",
+      "FromFile": "assets/Heavy_Bee_House.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/BigCraftables",
+      "Entries": {
+        "{{ModId}}_Heavy_Bee_House": {
+          "Name": "Heavy Bee House",
+          "DisplayName": "{{i18n:Heavy_Bee_House_name}}",
+          "Description": "{{i18n:Heavy_Bee_House_description}}",
+          "Texture": "Mods\\{{ModId}}\\heavy_bee_house",
+          "SpriteIndex": 0
+        }
+      }
+    }
+  ]
+}

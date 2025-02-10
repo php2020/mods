@@ -1,0 +1,179 @@
+{
+  "Changes": [
+    {
+      "LogName": "Load Sprite for Slime Objects",
+      "Action": "Load",
+      "Target": "Mods\\{{ModId}}\\slime_objects",
+      "FromFile": "assets/Slime_Objects.png"
+    },
+    {
+      "LogName": "Objects Data",
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "{{ModId}}_Slime_Seed": {
+          "Name": "Slime Seed",
+          "Type": "Basic",
+          "Category": -74,
+          "DisplayName": "{{i18n:Slime_Seed_name}}",
+          "Description": "{{i18n:Slime_Seed_description}}",
+          "Texture": "Mods\\{{ModId}}\\slime_objects",
+          "SpriteIndex": "8",
+          "Price": 20,
+          "ContextTags": []
+        },
+        "{{ModId}}_Green_Slime_Mayonnaise": {
+          "Name": "Green Slime Mayonnaise",
+          "DisplayName": "{{i18n:Green_Slime_Mayonnaise_name}}",
+          "Description": "{{i18n:Slime_Mayonnaise_description}}",
+          "IsDrink": true,
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 3000,
+          "Texture": "Mods\\{{ModId}}\\slime_objects",
+          "SpriteIndex": "0",
+          "Edibility": -20,
+          "ContextTags": [
+            "color_green",
+            "mayo_item"
+          ],
+          "CustomFields": {}
+        },
+        "{{ModId}}_Blue_Slime_Mayonnaise": {
+          "Name": "Blue Slime Mayonnaise",
+          "DisplayName": "{{i18n:Blue_Slime_Mayonnaise_name}}",
+          "Description": "{{i18n:Slime_Mayonnaise_description}}",
+          "IsDrink": true,
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 5250,
+          "Texture": "Mods\\{{ModId}}\\slime_objects",
+          "SpriteIndex": "1",
+          "Edibility": -20,
+          "ContextTags": [
+            "color_blue",
+            "mayo_item"
+          ],
+          "CustomFields": {}
+        },
+        "{{ModId}}_Red_Slime_Mayonnaise": {
+          "Name": "Red Slime Mayonnaise",
+          "DisplayName": "{{i18n:Red_Slime_Mayonnaise_name}}",
+          "Description": "{{i18n:Slime_Mayonnaise_description}}",
+          "IsDrink": true,
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 7500,
+          "Texture": "Mods\\{{ModId}}\\slime_objects",
+          "SpriteIndex": "2",
+          "Edibility": -20,
+          "ContextTags": [
+            "color_red",
+            "mayo_item"
+          ],
+          "CustomFields": {}
+        },
+        "{{ModId}}_Purple_Slime_Mayonnaise": {
+          "Name": "Purple Slime Mayonnaise",
+          "DisplayName": "{{i18n:Purple_Slime_Mayonnaise_name}}",
+          "Description": "{{i18n:Slime_Mayonnaise_description}}",
+          "IsDrink": true,
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 15000,
+          "Texture": "Mods\\{{ModId}}\\slime_objects",
+          "SpriteIndex": "3",
+          "Edibility": -20,
+          "ContextTags": [
+            "color_purple",
+            "mayo_item"
+          ],
+          "CustomFields": {}
+        },
+        "{{ModId}}_Tiger_Slime_Mayonnaise": {
+          "Name": "Tiger Slime Mayonnaise",
+          "DisplayName": "{{i18n:Tiger_Slime_Mayonnaise_name}}",
+          "Description": "{{i18n:Slime_Mayonnaise_description}}",
+          "IsDrink": true,
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 24000,
+          "Texture": "Mods\\{{ModId}}\\slime_objects",
+          "SpriteIndex": "4",
+          "Edibility": -20,
+          "ContextTags": [
+            "mayo_item"
+          ],
+          "CustomFields": {}
+        },
+        "{{ModId}}_Slime_Pudding": {
+          "Name": "Slime_Pudding",
+          "DisplayName": "{{i18n:Slime_Pudding_name}}",
+          "Description": "{{i18n:Slime_Pudding_description}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 120,
+          "Texture": "Mods\\{{ModId}}\\slime_objects",
+          "SpriteIndex": 5,
+          "Edibility": 16,
+          "IsDrink": false,
+          "ExcludeFromFishingCollection": true,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true,
+          "ContextTags": [
+            "ginger_item"
+          ],
+          "Buffs": [
+            {
+              "Duration": 200,
+              "CustomAttributes": {
+                "Speed": 1
+              }
+            }
+          ]
+        },
+        "{{ModId}}_Slime_Mousse": {
+          "Name": "Slime Mousse",
+          "DisplayName": "{{i18n:Slime_Mousse_name}}",
+          "Description": "{{i18n:Slime_Mousse_description}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 200,
+          "Texture": "Mods\\{{ModId}}\\slime_objects",
+          "SpriteIndex": 6,
+          "Edibility": 46,
+          "IsDrink": false,
+          "ExcludeFromFishingCollection": true,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true,
+          "ContextTags": [],
+          "Buffs": [
+            {
+              "Duration": 200,
+              "CustomAttributes": {
+                "FarmingLevel": 2,
+                "ForagingLevel": 2
+              }
+            }
+          ]
+        },
+        "{{ModId}}_Tiger_Omelette": {
+          "Name": "Tiger Omelette",
+          "DisplayName": "{{i18n:Tiger_Omelette_name}}",
+          "Description": "{{i18n:Tiger_Omelette_description}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 25000,
+          "Texture": "Mods\\{{ModId}}\\slime_objects",
+          "SpriteIndex": 7,
+          "Edibility": 60,
+          "IsDrink": false,
+          "ExcludeFromFishingCollection": true,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true,
+          "ContextTags": []
+        }
+      }
+    }
+  ]
+}

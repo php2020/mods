@@ -1,0 +1,11 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "Mushroom_Machine": "404 1 390 40/Home/{{ModId}}_Mushroom_Machine 1/true/Foraging 6"
+      }
+    }
+  ]
+}

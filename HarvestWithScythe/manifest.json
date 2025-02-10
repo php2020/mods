@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Harvest With Scythe 镰刀收割",
+  "Author": "bcmpinc",
+  "Version": "7.4",
+  "Description": "允许您使用镰刀收割所有作物和饲料。它们也可以被拔掉。",
+  "UniqueID": "bcmpinc.HarvestWithScythe",
+  "EntryDll": "HarvestWithScythe.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": ["Nexus:2731"],
+  "Dependencies": [
+    {
+      "UniqueID": "bcmpinc.StardewHack",
+      "MinimumVersion": "7.1"
+    }
+  ]
+}

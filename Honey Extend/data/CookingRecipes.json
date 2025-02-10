@@ -1,0 +1,41 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/CookingRecipes",
+      "Entries": {
+        "Hachimi Drink":"340 1 245 1/9999 9999/{{ModId}}_Hachimi_Drink 1/null/"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/CookingRecipeOverrides",
+      "Entries": {
+        "Hachimi Drink": {
+          "ProductQualifiedId": "{{ModId}}_Hachimi_Drink",
+          "ProductAmount": 1,
+          "Ingredients": [
+            {
+              "Type": "ContextTag",
+              "Value": "honey_item",
+              "Amount": 1,
+              "OverrideText": "{{i18n:any_honey}}",
+              "OverrideTexturePath": "Maps/springobjects",
+              "OverrideTextureRect": {
+                "X": 64,
+                "Y": 224,
+                "Width": 16,
+                "Height": 16
+              }
+            },
+            {
+              "Type": "Item",
+              "Value": "(O)245",
+              "Amount": 1
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

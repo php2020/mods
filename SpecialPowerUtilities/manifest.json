@@ -1,0 +1,16 @@
+﻿{
+    "Name": "Special Power Utilities 组件库",
+    "Author": "Spiderbuttons",
+    "Version": "2.3.1",
+    "Description": "一个有组织的特殊项目和权限列表，以及一些小而有用的实用功能，供使用自定义权限和书籍的mod作者使用。",
+    "UniqueID": "Spiderbuttons.SpecialPowerUtilities",
+    "EntryDll": "SpecialPowerUtilities.dll",
+    "MinimumApiVersion": "4.0.0",
+    "UpdateKeys": ["Nexus:22300"],
+    "Dependencies": [
+        {
+            "UniqueID": "Pathoschild.ContentPatcher",
+            "IsRequired": false
+        }
+    ]
+}

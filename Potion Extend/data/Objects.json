@@ -1,0 +1,475 @@
+{
+  "Changes": [
+    {
+      "LogName": "Load Sprite for potions",
+      "Action": "Load",
+      "Target": "Mods\\{{ModId}}\\potions",
+      "FromFile": "assets/Potions.png"
+    },
+    {
+      "LogName": "Objects Data",
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "{{ModId}}_Moss_Potion": {
+          "Name": "Moss Potion",
+          "DisplayName": "{{i18n:Moss_Potion_name}}",
+          "Description": "{{i18n:Moss_Potion_description}}",
+          "Type": "Crafting",
+          "Category": 0,
+          "Price": 30,
+          "Texture": "Mods\\{{ModId}}\\potions",
+          "SpriteIndex": 0,
+          "Edibility": 0,
+          "IsDrink": true,
+          "ExcludeFromFishingCollection": true,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true,
+          "ContextTags": [
+            "potion_item"
+          ],
+          "Buffs": [
+            {
+              "Duration": 100,
+              "CustomAttributes": {
+                "ForagingLevel": 4
+              }
+            }
+          ]
+        },
+        "{{ModId}}_Sap_Potion": {
+          "Name": "Sap Potion",
+          "DisplayName": "{{i18n:Sap_Potion_name}}",
+          "Description": "{{i18n:Sap_Potion_description}}",
+          "Type": "Crafting",
+          "Category": 0,
+          "Price": 30,
+          "Texture": "Mods\\{{ModId}}\\potions",
+          "SpriteIndex": 9,
+          "Edibility": 0,
+          "IsDrink": false,
+          "ExcludeFromFishingCollection": true,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true,
+          "ContextTags": [
+            "potion_item"
+          ],
+          "Buffs": [
+            {
+              "Duration": 120,
+              "CustomAttributes": {
+                "Speed": 1
+              }
+            }
+          ]
+        },
+        "{{ModId}}_Red_Mushroom_Potion": {
+          "Name": "Red Mushroom Potion",
+          "DisplayName": "{{i18n:Red_Mushroom_Potion_name}}",
+          "Description": "{{i18n:Red_Mushroom_Potion_description}}",
+          "Type": "Crafting",
+          "Category": 0,
+          "Price": 30,
+          "Texture": "Mods\\{{ModId}}\\potions",
+          "SpriteIndex": 1,
+          "Edibility": 2,
+          "IsDrink": true,
+          "ExcludeFromFishingCollection": true,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true,
+          "ContextTags": [
+            "potion_item"
+          ],
+          "Buffs": [
+            {
+              "Duration": 150,
+              "CustomAttributes": {
+                "FarmingLevel": 4,
+                "MaxStamina": 60
+              }
+            }
+          ]
+        },
+        "{{ModId}}_Purple_Mushroom_Potion": {
+          "Name": "Purple Mushroom Potion",
+          "DisplayName": "{{i18n:Purple_Mushroom_Potion_name}}",
+          "Description": "{{i18n:Purple_Mushroom_Potion_description}}",
+          "Type": "Crafting",
+          "Category": 0,
+          "Price": 150,
+          "Texture": "Mods\\{{ModId}}\\potions",
+          "SpriteIndex": 2,
+          "Edibility": 20,
+          "IsDrink": true,
+          "ExcludeFromFishingCollection": true,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true,
+          "ContextTags": [
+            "potion_item"
+          ],
+          "Buffs": [
+            {
+              "Duration": 150,
+              "CustomAttributes": {
+                "MiningLevel": 4,
+                "MagneticRadius": 64
+              }
+            }
+          ]
+        },
+        "{{ModId}}_Ginger_Potion": {
+          "Name": "Ginger Potion",
+          "DisplayName": "{{i18n:Ginger_Potion_name}}",
+          "Description": "{{i18n:Ginger_Potion_description}}",
+          "Type": "Crafting",
+          "Category": 0,
+          "Price": 100,
+          "Texture": "Mods\\{{ModId}}\\potions",
+          "SpriteIndex": 3,
+          "Edibility": 80,
+          "IsDrink": true,
+          "ExcludeFromFishingCollection": true,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true,
+          "ContextTags": [
+            "potion_item",
+            "ginger_item"
+          ],
+          "Buffs": null
+        },
+        "{{ModId}}_Iridium_Crab_Potion": {
+          "Name": "Iridium Crab Potion",
+          "DisplayName": "{{i18n:Iridium_Crab_Potion_name}}",
+          "Description": "{{i18n:Iridium_Crab_Potion_description}}",
+          "Type": "Crafting",
+          "Category": 0,
+          "Price": 200,
+          "Texture": "Mods\\{{ModId}}\\potions",
+          "SpriteIndex": 4,
+          "Edibility": 0,
+          "IsDrink": true,
+          "ExcludeFromFishingCollection": true,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true,
+          "ContextTags": [
+            "potion_item"
+          ],
+          "Buffs": [
+            {
+              "Duration": 150,
+              "CustomAttributes": {
+                "Defense": 28
+              }
+            }
+          ]
+        },
+        "{{ModId}}_Ink_Potion": {
+          "Name": "Ink Potion",
+          "DisplayName": "{{i18n:Ink_Potion_name}}",
+          "Description": "{{i18n:Ink_Potion_description}}",
+          "Type": "Crafting",
+          "Category": 0,
+          "Price": 120,
+          "Texture": "Mods\\{{ModId}}\\potions",
+          "SpriteIndex": 5,
+          "Edibility": 0,
+          "IsDrink": true,
+          "ExcludeFromFishingCollection": true,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true,
+          "ContextTags": [
+            "potion_item"
+          ],
+          "Buffs": [
+            {
+              "Duration": 150,
+              "CustomAttributes": {
+                "Speed": 2.5
+              }
+            },
+            {
+              "Id": "Darkness",
+              "BuffId": "26",
+              "Duration": 150,
+              "IsDebuff": false
+            }
+          ]
+        },
+        "{{ModId}}_Cold_Potion": {
+          "Name": "Cold Potion",
+          "DisplayName": "{{i18n:Cold_Potion_name}}",
+          "Description": "{{i18n:Cold_Potion_description}}",
+          "Type": "Crafting",
+          "Category": 0,
+          "Price": 160,
+          "Texture": "Mods\\{{ModId}}\\potions",
+          "SpriteIndex": 6,
+          "Edibility": 0,
+          "IsDrink": true,
+          "ExcludeFromFishingCollection": true,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true,
+          "ContextTags": [
+            "potion_item"
+          ],
+          "Buffs": [
+            {
+              "Duration": 150,
+              "CustomAttributes": {
+                "FishingLevel": 5
+              }
+            },
+            {
+              "Id": "Frozen",
+              "BuffId": "19",
+              "Duration": 150,
+              "IsDebuff": false
+            }
+          ]
+        },
+        "{{ModId}}_Hot_Potion": {
+          "Name": "Hot Potion",
+          "DisplayName": "{{i18n:Hot_Potion_name}}",
+          "Description": "{{i18n:Hot_Potion_description}}",
+          "Type": "Crafting",
+          "Category": 0,
+          "Price": 160,
+          "Texture": "Mods\\{{ModId}}\\potions",
+          "SpriteIndex": 7,
+          "Edibility": 0,
+          "IsDrink": true,
+          "ExcludeFromFishingCollection": true,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true,
+          "ContextTags": [
+            "potion_item"
+          ],
+          "Buffs": [
+            {
+              "Duration": 150,
+              "CustomAttributes": {
+                "Attack": 15
+              }
+            },
+            {
+              "Id": "Burning",
+              "BuffId": "12",
+              "Duration": 150,
+              "IsDebuff": false
+            }
+          ]
+        },
+        "{{ModId}}_Golden_Potion": {
+          "Name": "Golden Potion",
+          "DisplayName": "{{i18n:Golden_Potion_name}}",
+          "Description": "{{i18n:Golden_Potion_description}}",
+          "Type": "Crafting",
+          "Category": 0,
+          "Price": 120,
+          "Texture": "Mods\\{{ModId}}\\potions",
+          "SpriteIndex": 8,
+          "Edibility": 0,
+          "IsDrink": true,
+          "ExcludeFromFishingCollection": true,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true,
+          "ContextTags": [
+            "potion_item"
+          ],
+          "Buffs": [
+            {
+              "Id": "Buff1",
+              "BuffId": "20",
+              "Duration": 60,
+              "IsDebuff": false
+            },
+            {
+              "Id": "Buff2",
+              "BuffId": "21",
+              "Duration": 60,
+              "IsDebuff": false
+            },
+            {
+              "Id": "Buff3",
+              "BuffId": "22",
+              "Duration": 60,
+              "IsDebuff": false
+            }
+          ]
+        },
+        "{{ModId}}_Rainbow_Potion": {
+          "Name": "Rainbow Potion",
+          "DisplayName": "{{i18n:Rainbow_Potion_name}}",
+          "Description": "{{i18n:Rainbow_Potion_description}}",
+          "Type": "Crafting",
+          "Category": 0,
+          "Price": 300,
+          "Texture": "Mods\\{{ModId}}\\potions",
+          "SpriteIndex": 10,
+          "Edibility": 0,
+          "IsDrink": true,
+          "ExcludeFromFishingCollection": true,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true,
+          "ContextTags": [
+            "potion_item"
+          ],
+          "Buffs": [
+            {
+              "Duration": 200,
+              "CustomAttributes": {
+                "FarmingLevel": 0,
+                "FishingLevel": 0,
+                "MiningLevel": 2,
+                "LuckLevel": 5,
+                "ForagingLevel": 0,
+                "MaxStamina": 0,
+                "MagneticRadius": 0,
+                "Speed": 1,
+                "Defense": 5,
+                "Attack": 5
+              }
+            }
+          ]
+        },
+        "{{ModId}}_Crazy_Potion": {
+          "Name": "Crazy Potion",
+          "DisplayName": "{{i18n:Crazy_Potion_name}}",
+          "Description": "{{i18n:Crazy_Potion_description}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 1000,
+          "Texture": "Mods\\{{ModId}}\\potions",
+          "SpriteIndex": 11,
+          "Edibility": 30,
+          "IsDrink": true,
+          "ExcludeFromFishingCollection": true,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true,
+          "ContextTags": [
+            "potion_item"
+          ],
+          "Buffs": [
+            {
+              "Duration": 60,
+              "CustomAttributes": {
+                "FarmingLevel": 1,
+                "FishingLevel": 1,
+                "MiningLevel": 1,
+                "LuckLevel": 1,
+                "ForagingLevel": 1,
+                "MaxStamina": 1,
+                "MagneticRadius": 1,
+                "Speed": 1,
+                "Defense": 1,
+                "Attack": 1
+              }
+            },
+            {
+              "Id": "Buff1",
+              "BuffId": "20",
+              "Duration": 60,
+              "IsDebuff": false
+            },
+            {
+              "Id": "Buff2",
+              "BuffId": "21",
+              "Duration": 60,
+              "IsDebuff": false
+            },
+            {
+              "Id": "Buff3",
+              "BuffId": "22",
+              "Duration": 60,
+              "IsDebuff": false
+            },
+            {
+              "Id": "Buff4",
+              "BuffId": "6",
+              "Duration": 60,
+              "IsDebuff": false
+            },
+            {
+              "Id": "Buff5",
+              "BuffId": "7",
+              "Duration": 60,
+              "IsDebuff": false
+            },
+            {
+              "Id": "Buff6",
+              "BuffId": "12",
+              "Duration": 60,
+              "IsDebuff": false
+            },
+            {
+              "Id": "Buff7",
+              "BuffId": "13",
+              "Duration": 60,
+              "IsDebuff": false
+            },
+            {
+              "Id": "Buff8",
+              "BuffId": "14",
+              "Duration": 60,
+              "IsDebuff": false
+            },
+            {
+              "Id": "Buff9",
+              "BuffId": "17",
+              "Duration": 60,
+              "IsDebuff": false
+            },
+            {
+              "Id": "Buff10",
+              "BuffId": "18",
+              "Duration": 60,
+              "IsDebuff": false
+            },
+            {
+              "Id": "Buff11",
+              "BuffId": "19",
+              "Duration": 60,
+              "IsDebuff": false
+            },
+            {
+              "Id": "Buff12",
+              "BuffId": "23",
+              "Duration": 60,
+              "IsDebuff": false
+            },
+            {
+              "Id": "Buff13",
+              "BuffId": "24",
+              "Duration": 60,
+              "IsDebuff": false
+            },
+            {
+              "Id": "Buff14",
+              "BuffId": "25",
+              "Duration": 60,
+              "IsDebuff": false
+            },
+            {
+              "Id": "Buff15",
+              "BuffId": "26",
+              "Duration": 60,
+              "IsDebuff": false
+            },
+            {
+              "Id": "Buff16",
+              "BuffId": "27",
+              "Duration": 60,
+              "IsDebuff": false
+            },
+            {
+              "Id": "Buff17",
+              "BuffId": "28",
+              "Duration": 60,
+              "IsDebuff": false
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

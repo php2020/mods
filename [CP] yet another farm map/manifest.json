@@ -1,0 +1,11 @@
+{
+  "Name": "yet another farm map",
+  "Author": "DaisyNiko",
+  "Version": "2.3.3",
+  "UniqueID": "DaisyNiko.yafm",
+  "MinimumApiVersion": "2.11.0",
+  "UpdateKeys": ["Nexus:4159"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+       "Crucible": "330 20 388 10/Home/{{ModId}}_Crucible 1/true/Foraging 4"
+      }
+    }
+  ]
+}

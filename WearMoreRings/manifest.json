@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Wear More Rings 更多戒指",
+  "Author": "bcmpinc",
+  "Version": "7.7",
+  "Description": "添加额外的戒指插槽",
+  "UniqueID": "bcmpinc.WearMoreRings",
+  "EntryDll": "WearMoreRings.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": ["Nexus:3214"],
+  "Dependencies": [
+    {
+      "UniqueID": "bcmpinc.StardewHack",
+      "MinimumVersion": "7.1"
+    }
+  ]
+}

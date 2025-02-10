@@ -1,0 +1,23 @@
+﻿{
+    "Format": "2.0.0",
+    "Changes": [
+        {
+            "LogName": "objects",
+            "Action": "Include",
+            "FromFile": "data/objects.json"
+        },
+        {
+            "LogName": "Shops",
+            "Action": "Include",
+            "FromFile": "data/Shops.json"
+        },
+        {
+          "Action": "Include",
+          "FromFile": "data/BigCraftable.json"
+        },
+        {
+          "Action": "Include",
+          "FromFile": "data/Machine.json"  
+        }  
+    ]
+}

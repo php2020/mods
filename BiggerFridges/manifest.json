@@ -1,0 +1,9 @@
+{
+  "Name": "Bigger Fridges 更大冰箱",
+  "Author": "Entoarox",
+  "Version": "1.1.1",
+  "Description": "更大的冰箱",
+  "UniqueID": "Entoarox.BiggerFridges",
+  "EntryDll": "BiggerFridges.dll",
+  "UpdateKeys": ["nexus:21678"]
+}

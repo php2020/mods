@@ -1,0 +1,22 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "Saloon",
+        "Items"
+      ],
+      "Entries": {
+        "{{ModId}}_Hachimi_Drink": {
+          "Id": "{{ModId}}_Hachimi_Drink",
+          "ItemId": "{{ModId}}_Hachimi_Drink",
+          "price": 100,
+          "IsRecipe": true,
+          "TradeItemId":"(O)340",
+          "TradeItemAmount": 5
+        }
+      }
+    }
+  ]
+}

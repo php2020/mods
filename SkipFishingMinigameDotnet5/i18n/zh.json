@@ -1,0 +1,10 @@
+{
+    "config.IsModEnabled.name": "开启",
+    "config.IsActionButtonToggleAutoHook.name": "按钮切换自动上钩",
+    "config.IsAutoHook.name": "自动上钩",
+    "config.IsRemoveAutoHook.name": "是否移除自动上钩",
+    "config.IsIgnoreTreasureChests.name": "忽略宝箱",
+    "config.MinimumCatchesRequired.name": "最低捕获数量要求",
+    "config.PerfectCatchChance.name": "完美捕获几率",
+    "config.IsPerfectMessageEnabled.name": "是否启用完美捕获提示"
+}

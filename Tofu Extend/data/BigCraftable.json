@@ -1,0 +1,23 @@
+{
+  "Changes": [
+    {
+      "LogName": "Load Sprite for Tofu Pot",
+      "Action": "Load",
+      "Target": "Mods\\{{ModId}}\\tofu_pot",
+      "FromFile": "assets/Tofu_Pot.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/BigCraftables",
+      "Entries": {
+        "{{ModId}}_Tofu_Pot": {
+          "Name": "Tofu Pot",
+          "DisplayName": "{{i18n:Tofu_Pot_name}}",
+          "Description": "{{i18n:Tofu_Pot_description}}",
+          "Texture": "Mods\\{{ModId}}\\tofu_pot",
+          "SpriteIndex": 0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "Changes": [
+    {
+      "LogName": "Load Sprite for Soybean Crop",
+      "Action": "Load",
+      "Target": "Mods\\{{ModId}}\\soybean_crops",
+      "FromFile": "assets/Soybean_Crops.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Crops",
+      "Entries": {
+        "{{ModId}}_Soybean_Seed": {
+          "Seasons": [
+            "Summer",
+            "fall"
+          ],
+          "DaysInPhase": [
+            1,
+            1,
+            1,
+            4,
+            3
+          ],
+          "RegrowDays": 3,
+          "IsRaised": true,
+          "IsPaddyCrop": false,
+          "TrellisCrop": true,
+          "NeedsWatering": true,
+          "HarvestItemId": "(O){{ModId}}_Soybean",
+          "HarvestMinStack": 1,
+          "HarvestMaxStack": 1,
+          "HarvestMaxIncreasePerFarmingLevel": 0.0,
+          "ExtraHarvestChance": 0.0,
+          "HarvestMethod": "Grab",
+          "HarvestMinQuality": 0,
+          "HarvestMaxQuality": null,
+          "TintColors": [],
+          "Texture": "Mods\\{{ModId}}\\soybean_crops",
+          "CustomFields": {}
+        }
+      }
+    }
+  ]
+}

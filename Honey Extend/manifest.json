@@ -1,0 +1,21 @@
+{
+  "Name": "[CP]Honey Extend 重型蜂房",
+  "Author": "skeleton",
+  "Description": "Add something.",
+  "Version": "1.0.2",
+  "UpdateKeys": ["Nexus:26321"],
+  "UniqueID": "skeleton.HoneyExtendCP",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "spacechase0.SpaceCore",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "selph.ExtraMachineConfig",
+      "IsRequired": true
+    }
+  ]
+}

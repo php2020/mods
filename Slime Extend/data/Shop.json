@@ -1,0 +1,38 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "IslandTrade",
+        "Items"
+      ],
+      "Entries": {
+        "{{ModId}}_Tiger_Omelette": {
+          "Id": "{{ModId}}_Tiger_Omelette",
+          "ItemId": "{{ModId}}_Tiger_Omelette",
+          "IsRecipe": true,
+          "TradeItemId":"(O){{ModId}}_Tiger_Slime_Mayonnaise",
+          "TradeItemAmount": 1
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "AdventureShop",
+        "Items"
+      ],
+      "Entries": {
+        "{{ModId}}_Slime_Mousse": {
+          "Id": "{{ModId}}_Slime_Mousse",
+          "ItemId": "{{ModId}}_Slime_Mousse",
+          "IsRecipe": true,
+          "TradeItemId":"(O)340",
+          "TradeItemAmount": 5
+        }
+      }
+    }
+  ]
+}

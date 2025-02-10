@@ -1,0 +1,58 @@
+{
+  "Changes": [
+        		{
+              "Action": "EditData",
+              "Target": "Data/Machines",
+              "Entries": { 
+                "(BC){{ModId}}_Gourmet_Table_Cloth": {
+                  "OutputRules": [
+                    {
+                      "Id": "{{ModId}}.Gourmet_Table_Cloth.Random",
+                      "Triggers": [
+                        {
+                          "Trigger": "OutputCollected, MachinePutDown"
+                        }
+                      ],
+                      "OutputItem": [
+                        {
+                          "ItemId": "RANDOM_ITEMS (O)",
+                          "PerItemCondition": "ITEM_CONTEXT_TAG Target edible_Dorayaki_item",
+                          "MinStack": 1,
+                          "MaxStack": 1
+                        }
+                      ],
+                      "UseFirstValidOutput": false,
+                      "MinutesUntilReady": 720,
+                      "DaysUntilReady": -1
+                    }
+                  ],
+                  "LoadEffects":[
+                    {
+                      "Sounds": [
+                        {
+                        "Id": "openBox",
+                        "Delay": 0
+                        },
+                        {
+                        "Id": "Ship",
+                        "Delay": 0
+                        }
+                      ],
+                      "Frames": [ 0,2,3,4 ],
+                      "Interval": 200
+                    }
+                  ],
+                  "WorkingEffects": [
+                    {
+                      "Frames": [ 0,2,3,4 ],
+                      "Interval": 200
+                    }
+                  ],
+                  "WorkingEffectChance": 1,
+                  "ShowNextIndexWhenReady": true,
+                  "WobbleWhileWorking": false
+                }
+              }
+            }
+          ]
+        }

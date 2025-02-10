@@ -1,0 +1,18 @@
+{
+  "Name": "MarketTown - Custom MT Location NPC默认位置",
+  "Author": "d5a1lamdtd",
+  "Version": "5.0.0",
+  "Description": "NPC Default Location NPC默认位置",
+  "UniqueID": "d5a1lamdtd.MarketTown.Custom_MT_Location",
+  "UpdateKeys": ["Nexus:???"],
+  "MinimumApiVersion": "4.0.0",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "d5a1lamdtd.MarketTown",
+      "IsRequired": true
+    }
+  ]
+}

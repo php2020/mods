@@ -1,0 +1,9 @@
+{
+    "Name": "Save Backup 自动备份",
+    "Author": "SMAPI",
+    "Version": "4.1.10",
+    "Description": "每天自动将您的所有保存备份到其文件夹中一次。",
+    "UniqueID": "SMAPI.SaveBackup",
+    "EntryDll": "SaveBackup.dll",
+    "MinimumApiVersion": "4.1.10"
+}

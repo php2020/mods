@@ -1,0 +1,136 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "SeedShop",
+        "Items"
+      ],
+      "Entries": {
+        "{{ModId}}_Unknown_Mushroom_Seed": {
+          "Condition":"DAY_OF_WEEK Monday",
+          "Id": "{{ModId}}_Unknown_Mushroom_Seed",
+          "ItemId": "{{ModId}}_Unknown_Mushroom_Seed",
+          "Price": 150,
+          "AvailableStock": 3,
+          "AvailableStockLimit": "Player",
+          "TradeItemAmount": 1
+        },
+        "{{ModId}}_Unknown_Special_Mushroom_Seed_1": {
+          "Condition": "SEASON spring,DAY_OF_WEEK Sunday",
+          "Id": "{{ModId}}_Unknown_Special_Mushroom_Seed_1",
+          "ItemId": "{{ModId}}_Unknown_Special_Mushroom_Seed",
+          "AvailableStock": 1,
+          "AvailableStockLimit": "Player",
+          "Price": 400
+        },
+        "{{ModId}}_Unknown_Special_Mushroom_Seed_2": {
+          "Condition": "SEASON summer,DAY_OF_WEEK Sunday",
+          "Id": "{{ModId}}_Unknown_Special_Mushroom_Seed_2",
+          "ItemId": "{{ModId}}_Unknown_Special_Mushroom_Seed",
+          "AvailableStock": 1,
+          "AvailableStockLimit": "Player",
+          "Price": 500
+        },
+        "{{ModId}}_Unknown_Special_Mushroom_Seed_3": {
+          "Condition": "SEASON fall,DAY_OF_WEEK Sunday",
+          "Id": "{{ModId}}_Unknown_Special_Mushroom_Seed_3",
+          "ItemId": "{{ModId}}_Unknown_Special_Mushroom_Seed",
+          "AvailableStock": 1,
+          "AvailableStockLimit": "Player",
+          "Price": 600
+        },
+        "{{ModId}}_Unknown_Winter_Mushroom_Seed": {
+          "Condition": "SEASON winter,DAY_OF_WEEK Sunday",
+          "Id": "{{ModId}}_Unknown_Winter_Mushroom_Seed",
+          "ItemId": "{{ModId}}_Unknown_Winter_Mushroom_Seed",
+          "AvailableStock": 1,
+          "AvailableStockLimit": "Player",
+          "Price": 500
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "FishShop",
+        "Items"
+      ],
+      "Entries": {
+        "{{ModId}}_Slime_Mousse": {
+          "Id": "{{ModId}}_Shark_Mask",
+          "ItemId": "{{ModId}}_Shark_Mask",
+          "TradeItemId":"(O){{ModId}}_Truffle_Worm",
+          "TradeItemAmount": 1
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "Saloon",
+        "Items"
+      ],
+      "Entries": {
+        "{{ModId}}_Mushroom_Spark": {
+          "Id": "{{ModId}}_Mushroom_Spark",
+          "ItemId": "{{ModId}}_Mushroom_Spark",
+          "IsRecipe": true,
+          "TradeItemId":"(O){{ModId}}_Frozen_Truffle",
+          "TradeItemAmount": 5
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "AdventureShop",
+        "Items"
+      ],
+      "Entries": {
+        "{{ModId}}_Knight_Sword": {
+          "Id": "{{ModId}}_Knight_Sword",
+          "ItemId": "{{ModId}}_Knight_Sword",
+          "TradeItemId":"(O){{ModId}}_Amber_Cap",
+          "TradeItemAmount": 1
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "ShadowShop",
+        "Items"
+      ],
+      "Entries": {
+        "{{ModId}}_": {
+          "Id": "{{ModId}}_Ectoplasm_Needle",
+          "ItemId": "{{ModId}}_Ectoplasm_Needle",
+          "TradeItemId":"(O){{ModId}}_Amber_Cap",
+          "TradeItemAmount": 1
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "Dwarf",
+        "Items"
+      ],
+      "Entries": {
+        "{{ModId}}_Glow_Shard": {
+          "Id": "{{ModId}}_Glow_Shard",
+          "ItemId": "{{ModId}}_Glow_Shard",
+          "TradeItemId":"(O){{ModId}}_Amber_Cap",
+          "TradeItemAmount": 1
+        }
+      }
+    }
+  ]
+}

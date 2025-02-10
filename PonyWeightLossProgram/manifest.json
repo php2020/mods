@@ -1,0 +1,10 @@
+﻿{
+    "Name": "Pony Weight Loss Program 小马瘦身",
+    "Author": "BadNetCode",
+    "Version": "1.0.0",
+    "Description": "允许马穿过单个狭小空间",
+    "UniqueID": "BadNetCode.PonyWeightLossProgram",
+    "EntryDll": "PonyWeightLossProgram.dll",
+    "MinimumApiVersion": "4.0.0",
+    "UpdateKeys": ["Nexus:1232", "Moddrop:130159"]
+}

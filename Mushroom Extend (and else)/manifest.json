@@ -1,0 +1,11 @@
+{
+  "Name": "[CP]Mushroom Extend 蘑菇拓展",
+  "Author": "skeleton",
+  "Description": "Add something.",
+  "Version": "1.0.3",
+  "UpdateKeys": ["Nexus:26756"],
+  "UniqueID": "skeleton.MushroomCP",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

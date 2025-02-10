@@ -1,0 +1,9 @@
+{
+  "EnableMod": true,
+  "CanBuyBlueChicken": true,
+  "CanBuyVoidChicken": true,
+  "CanBuyGoldenChicken": true,
+  "BlueChickenPrice": 800,
+  "VoidChickenPrice": 1000,
+  "GoldenChickenPrice": 2000
+}

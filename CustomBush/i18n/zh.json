@@ -1,0 +1,8 @@
+{
+  "placeholder.name": "自定义植株",
+  "placeholder.description": "这是一个自定义植株",
+  "config.log-amount.name": "日志数量",
+  "config.log-amount.tooltip": "控制台产生信息数量",
+  "config.log-amount.less": "较少",
+  "config.log-amount.more": "较多"
+}

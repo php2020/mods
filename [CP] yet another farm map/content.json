@@ -1,0 +1,96 @@
+{
+    "Format": "2.3.0",
+    "ConfigSchema": {
+        "FarmToReplace": {
+            "AllowValues": "Standard, Forest, Riverland, Hilltop, Wilderness", //标准，森林，河滩，山顶，荒野
+            "Default": "Forest"
+        },
+        "BiggerFarmCave": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
+        "Version": {
+            "AllowValues": "1, 2",
+            "Default": "1"
+        }
+    },
+    "DynamicTokens": [
+        {
+            "Name": "file",
+            "Value": "Farm",
+            "When": {
+                "FarmToReplace": "Standard"
+            }
+        },
+        {
+            "Name": "file",
+            "Value": "Farm_Foraging",
+            "When": {
+                "FarmToReplace": "Forest"
+            }
+        },
+        {
+            "Name": "file",
+            "Value": "Farm_Fishing",
+            "When": {
+                "FarmToReplace": "Riverland"
+            }
+        },
+        {
+            "Name": "file",
+            "Value": "Farm_Mining",
+            "When": {
+                "FarmToReplace": "Hilltop"
+            }
+        },
+        {
+            "Name": "file",
+            "Value": "Farm_Combat",
+            "When": {
+                "FarmToReplace": "Wilderness"
+            }
+        }
+    ],
+    "Changes": [
+        //farm map
+        {
+            "Action": "Load",
+            "Target": "Maps/{{file}}",
+            "FromFile": "assets/farm_v{{Version}}.tmx"
+        },
+        //cave
+        {
+            "Action": "Load",
+            "Target": "Maps/FarmCave",
+            "FromFile": "assets/farmcave.tbin",
+            "When": {
+                "BiggerFarmCave": "true",
+                "FarmType": "{{FarmToReplace}}"
+            }
+        },
+        //greenhouse dirt
+        {
+            "Action": "Load",
+            "Target": "Maps/Farm_Greenhouse_Dirt, Maps/Farm_Greenhouse_Dirt_FourCorners",
+            "FromFile": "assets/Farm_Greenhouse_Dirt.tbin",
+            "When": {
+                "FarmType": "{{FarmToReplace}}"
+            }
+        },
+        //strings
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "idk.1": "South to Cindersap Forest",
+                "idk.2": "@ {{FarmName}} Farm West",
+                "idk.3": "> {{FarmName}} Farm East",
+                "idk.4": "` Backwoods^` Mountain",
+                "idk.5": "> Bus Stop^> Pelican Town",
+                "idk.7": "'Notes on the Parsnip' by W. Kipedia#\"The parsnip (Pastinaca sativa) is a root vegetable closely related to carrot and parsley; all belong to the family Apiaceae. It is a biennial plant usually grown as an annual...\"",
+                "idk.9": "'The Vintner's Luck' by Elizabeth Knox#\"Someone had set a statue down on the ridge. Sobran blinked and swayed. For a second he saw what he knew -- gilt, paint and varnish, the sculpted labial eyes of a church statue.\"#\"Then he swooned while still walking forward, and the angel stood quickly to catch him...\"",
+                "idk.8": "'This Book is Full of Spiders' by David Wong#\"You know how sometimes when you're drifting off to sleep you feel that jolt, like you were falling and caught yourself at the last second?\"#\"That's just the parasite adjusting its grip...\""
+            }
+        }
+    ]
+}

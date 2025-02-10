@@ -1,0 +1,98 @@
+{
+  "Changes": [
+    {
+      "LogName": "Load Sprite for Unknown Mushroom Crop",
+      "Action": "Load",
+      "Target": "Mods\\{{ModId}}\\unknown_mushroom_crop",
+      "FromFile": "assets/Unknown_Mushroom_Crop.png"
+    },
+    {
+      "LogName": "Load Sprite for Unknown Winter Mushroom Crop",
+      "Action": "Load",
+      "Target": "Mods\\{{ModId}}\\unknown_winter_mushroom_crop",
+      "FromFile": "assets/Unknown_Winter_Mushroom_Crop.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Crops",
+      "Entries": {
+        "{{ModId}}_Unknown_Mushroom_Seed": {
+          "Seasons": [
+            "Spring",
+            "Summer",
+            "Fall"
+          ],
+          "DaysInPhase": [
+            1,
+            2,
+            4
+          ],
+          "RegrowDays": -1,
+          "IsRaised": false,
+          "IsPaddyCrop": false,
+          "TrellisCrop": false,
+          "NeedsWatering": true,
+          "HarvestItemId": "(O){{ModId}}_Unknown_Mushroom",
+          "HarvestMinStack": 2,
+          "HarvestMaxStack": 5,
+          "HarvestMaxIncreasePerFarmingLevel": 0.1,
+          "ExtraHarvestChance": 0.1,
+          "TintColors": [],
+          "Texture": "Mods\\{{ModId}}\\unknown_mushroom_crop",
+          "SpriteIndex": 0,
+          "CustomFields": {}
+        },
+        "{{ModId}}_Unknown_Special_Mushroom_Seed": {
+          "Seasons": [
+            "Spring",
+            "Summer",
+            "Fall"
+          ],
+          "DaysInPhase": [
+            1,
+            2,
+            4
+          ],
+          "RegrowDays": -1,
+          "IsRaised": false,
+          "IsPaddyCrop": false,
+          "TrellisCrop": false,
+          "NeedsWatering": true,
+          "HarvestItemId": "(O){{ModId}}_Unknown_Special_Mushroom",
+          "HarvestMinStack": 3,
+          "HarvestMaxStack": 4,
+          "HarvestMaxIncreasePerFarmingLevel": 0.1,
+          "ExtraHarvestChance": 0.1,
+          "TintColors": [],
+          "Texture": "Mods\\{{ModId}}\\unknown_mushroom_crop",
+          "SpriteIndex": 0,
+          "CustomFields": {}
+        },
+        "{{ModId}}_Unknown_Winter_Mushroom_Seed": {
+          "Seasons": [
+            "Winter"
+          ],
+          "DaysInPhase": [
+            1,
+            2,
+            4
+          ],
+          "RegrowDays": -1,
+          "IsRaised": false,
+          "IsPaddyCrop": false,
+          "TrellisCrop": false,
+          "NeedsWatering": true,
+          "HarvestItemId": "(O){{ModId}}_Unknown_Winter_Mushroom",
+          "HarvestMinStack": 1,
+          "HarvestMaxStack": 3,
+          "HarvestMaxIncreasePerFarmingLevel": 0.1,
+          "ExtraHarvestChance": 0.1,
+          "TintColors": [],
+          "Texture": "Mods\\{{ModId}}\\unknown_winter_mushroom_crop",
+          "SpriteIndex": 0,
+          "CustomFields": {}
+        }
+      }
+    }
+  ]
+}

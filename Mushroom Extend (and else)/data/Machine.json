@@ -1,0 +1,237 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "Entries": {
+        "(BC){{ModId}}_Mushroom_Machine": {
+          "OutputRules": [
+            {
+              "Id": "{{ModId}}_Unknown_Mushroom",
+              "Triggers": [
+                {
+                  "Id": "{{ModId}}_Unknown_Mushroom",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "{{ModId}}_Unknown_Mushroom",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "normal",
+                  "ItemId": "(O)404",
+                  "MinStack": 1,
+                  "Condition": "RANDOM .1",
+                  "CopyQuality": true
+                },
+                {
+                  "Id": "red",
+                  "ItemId": "(O)420",
+                  "MinStack": 1,
+                  "Condition": "RANDOM .5",
+                  "CopyQuality": true
+                },
+                {
+                  "Id": "morel",
+                  "ItemId": "(O)257",
+                  "MinStack": 1,
+                  "Condition": "RANDOM .5",
+                  "CopyQuality": true
+                },
+                {
+                  "Id": "special",
+                  "ItemId": "{{ModId}}_Unknown_Special_Mushroom",
+                  "MinStack": 1,
+                  "Condition": "RANDOM .05",
+                  "CopyQuality": true
+                },
+                {
+                  "Id": "winter",
+                  "ItemId": "{{ModId}}_Unknown_Winter_Mushroom",
+                  "MinStack": 1,
+                  "Condition": "RANDOM .05",
+                  "CopyQuality": true
+                }
+              ],
+              "MinutesUntilReady": 400
+            },
+            {
+              "Id": "{{ModId}}_Unknown_Special_Mushroom",
+              "Triggers": [
+                {
+                  "Id": "{{ModId}}_Unknown_Special_Mushroom",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "{{ModId}}_Unknown_Special_Mushroom",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "normal",
+                  "ItemId": "(O)404",
+                  "MinStack": 1,
+                  "Condition": "RANDOM .1",
+                  "CopyQuality": true
+                },
+                {
+                  "Id": "purple",
+                  "ItemId": "(O)422",
+                  "MinStack": 1,
+                  "Condition": "RANDOM .5",
+                  "CopyQuality": true
+                },
+                {
+                  "Id": "chanterelle",
+                  "ItemId": "(O)257",
+                  "MinStack": 1,
+                  "Condition": "RANDOM .5",
+                  "CopyQuality": true
+                },
+                {
+                  "Id": "magma",
+                  "ItemId": "(O)851",
+                  "MinStack": 1,
+                  "Condition": "RANDOM .15",
+                  "CopyQuality": true
+                },
+                {
+                  "Id": "truffle",
+                  "ItemId": "(O)430",
+                  "MinStack": 1,
+                  "Condition": "RANDOM .15",
+                  "CopyQuality": true
+                },
+                {
+                  "Id": "winter",
+                  "ItemId": "{{ModId}}_Unknown_Winter_Mushroom",
+                  "MinStack": 1,
+                  "Condition": "RANDOM .05",
+                  "CopyQuality": true
+                }
+              ],
+              "MinutesUntilReady": 400
+            },
+            {
+              "Id": "{{ModId}}_Unknown_Winter_Mushroom",
+              "Triggers": [
+                {
+                  "Id": "{{ModId}}_Unknown_Winter_Mushroom",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "{{ModId}}_Unknown_Winter_Mushroom",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "normal",
+                  "ItemId": "(O)404",
+                  "MinStack": 1,
+                  "Condition": "RANDOM .1",
+                  "CopyQuality": true
+                },
+                {
+                  "Id": "purple",
+                  "ItemId": "(O)422",
+                  "MinStack": 1,
+                  "Condition": "RANDOM .5",
+                  "CopyQuality": true
+                },
+                {
+                  "Id": "f_truffle",
+                  "ItemId": "(O){{ModId}}_Frozen_Truffle",
+                  "MinStack": 1,
+                  "Condition": "RANDOM .15",
+                  "CopyQuality": true
+                },
+                {
+                  "Id": "amber",
+                  "ItemId": "(O){{ModId}}_Amber_Cap",
+                  "MinStack": 1,
+                  "Condition": "RANDOM .15",
+                  "CopyQuality": true
+                },
+                {
+                  "Id": "special",
+                  "ItemId": "{{ModId}}_Unknown_Special_Mushroom",
+                  "MinStack": 1,
+                  "Condition": "RANDOM .05",
+                  "CopyQuality": true
+                }
+              ],
+              "MinutesUntilReady": 400
+            }
+          ],
+          "ShowNextIndexWhileWorking": true,
+          "LoadEffects": [
+            {
+              "Sounds": [
+                {
+                  "Id": "slimeHit"
+                }
+              ],
+              "Frames": [ 1,2,3,4,5,6,7,8 ],
+              "Interval": 160
+            }
+          ],
+          "WorkingEffects": [
+            {
+              "Frames": [ 1,2,3,4,5,6,7,8 ],
+              "Interval": 160
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC)13",
+        "OutputRules"
+      ],
+      "Entries": {
+        "{{ModId}}_Frozen_Truffle": {
+          "Id": "{{ModId}}_Frozen_Truffle",
+          "Triggers": [
+            {
+              "RequiredItemId": "{{ModId}}_Frozen_Truffle"
+            }
+          ],
+          "OutputItem": [
+            {
+              "ItemId": "(O)430",
+              "MinStack": 1
+            }
+          ],
+          "MinutesUntilReady": 30
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC)HeavyFurnace",
+        "OutputRules"
+      ],
+      "Entries": {
+        "{{ModId}}_Frozen_Truffle": {
+          "Id": "{{ModId}}_Frozen_Truffle",
+          "Triggers": [
+            {
+              "RequiredItemId": "{{ModId}}_Frozen_Truffle",
+              "RequiredCount": 5
+            }
+          ],
+          "OutputItem": [
+            {
+              "ItemId": "(O)430",
+              "MinStack": 5
+            }
+          ],
+          "MinutesUntilReady": 30
+        }
+      }
+    }
+  ]
+}

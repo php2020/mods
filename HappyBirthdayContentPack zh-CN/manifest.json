@@ -1,0 +1,11 @@
+{
+    "Name": "生日快乐zh-CN翻译内容包",
+    "Author": "Omegasis",
+    "Version": "1.0.6",
+    "Description": "一个包含mod“生日快乐”中文翻译的内容包。",
+    "UniqueID": "Omegasis.HappyBirthday.ContentPack.zh-CN",
+    "UpdateKeys": ["Nexus:11415"],
+    "ContentPackFor": {
+        "UniqueID": "Omegasis.HappyBirthday"
+    }
+}

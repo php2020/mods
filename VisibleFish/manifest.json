@@ -1,0 +1,10 @@
+﻿{
+  "Name": "Visible Fish 鱼群显示",
+  "Author": "shekurika",
+  "Version": "0.4.2",
+  "Description": "在水中显示鱼群",
+  "UniqueID": "shekurika.WaterFish",
+  "EntryDll": "showFishInWater.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": ["Nexus:8897"]
+}

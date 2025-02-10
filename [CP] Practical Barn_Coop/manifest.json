@@ -1,0 +1,11 @@
+{
+  "Name": "BarnCoop 豪华畜棚",
+  "Author": "Kana",
+  "Version": "1.0.0",
+  "Description": "Cambia l'interno della Stia e del granaio.",
+  "UniqueID": "Kana.BarnCoop",
+  "UpdateKeys": ["27052"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

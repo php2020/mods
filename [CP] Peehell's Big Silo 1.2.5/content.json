@@ -1,0 +1,46 @@
+{
+  "Format": "2.0.0",
+  "ConfigSchema": {
+    "SiloTexture": {
+      "AllowValues": "true, false",
+      "Default": true
+    }
+  },
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Buildings",
+      "Fields": {
+        "Silo": { "HayCapacity": "50000" }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Buildings/Silo",
+      "FromFile": "assets/SiloSpring.png",
+      "When": { "Season": "Spring" },
+      "When": { "SiloTexture": true }
+    },
+    {
+      "Action": "Load",
+      "Target": "Buildings/Silo",
+      "FromFile": "assets/SiloSummer.png",
+      "When": { "Season": "Summer" },
+      "When": { "SiloTexture": true }
+    },
+    {
+      "Action": "Load",
+      "Target": "Buildings/Silo",
+      "FromFile": "assets/SiloFall.png",
+      "When": { "Season": "Fall" },
+      "When": { "SiloTexture": true }
+    },
+    {
+      "Action": "Load",
+      "Target": "Buildings/Silo",
+      "FromFile": "assets/SiloWinter.png",
+      "When": { "Season": "Winter" },
+      "When": { "SiloTexture": true }
+    }
+  ]
+}

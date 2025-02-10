@@ -1,0 +1,12 @@
+{
+  "Name": "MarketTown - Custom Items 集镇定制商品",
+  "Author": "d5a1lamdtd",
+  "Version": "5.0.0",
+  "Description": "Custom Items for Market Town 集镇定制商品",
+  "UniqueID": "d5a1lamdtd.MarketTown.Item",
+  "MinimumApiVersion": "3.15.0",
+  "UpdateKeys": ["Nexus:???"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

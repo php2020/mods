@@ -1,0 +1,297 @@
+{
+  "Changes": [
+    {
+      "LogName": "Aquarium Sprites",
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/AquariumFish",
+      "FromFile": "assets/AquariumSprites.png"
+    },
+    {
+      "LogName": "Load Sprite for Mushroom Weapons",
+      "Action": "Load",
+      "Target": "Mods\\{{ModId}}\\mushroom_weapons",
+      "FromFile": "assets/Mushroom_Weapons.png"
+    },
+    {
+      "LogName": "Load Sprite for Mushroom Objects",
+      "Action": "Load",
+      "Target": "Mods\\{{ModId}}\\mushroom_objects",
+      "FromFile": "assets/Mushroom_Objects.png"
+    },
+    {
+      "LogName": "Load Sprite for Shark Mask",
+      "Action": "Load",
+      "Target": "Mods\\{{ModId}}\\shark_mask",
+      "FromFile": "assets/Shark_Mask.png"
+    },
+
+    {
+      "LogName": "Objects Data",
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "{{ModId}}_Unknown_Mushroom_Seed": {
+          "Name": "Unknown Mushroom Seed",
+          "DisplayName": "{{i18n:Unknown_Mushroom_Seed_name}}",
+          "Description": "{{i18n:Unknown_Mushroom_Seed_description}}",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price": 20,
+          "Texture": "Mods\\{{ModId}}\\mushroom_objects",
+          "SpriteIndex": "0",
+          "Edibility": -300,
+          "IsDrink": false,
+          "ExcludeFromFishingCollection": true,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true,
+          "ContextTags": []
+        },
+        "{{ModId}}_Unknown_Special_Mushroom_Seed": {
+          "Name": "Unknown Special Mushroom Seed",
+          "DisplayName": "{{i18n:Unknown_Special_Mushroom_Seed_name}}",
+          "Description": "{{i18n:Unknown_Special_Mushroom_Seed_description}}",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price": 40,
+          "Texture": "Mods\\{{ModId}}\\mushroom_objects",
+          "SpriteIndex": "1",
+          "Edibility": -300,
+          "IsDrink": false,
+          "ExcludeFromFishingCollection": true,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true,
+          "ContextTags": []
+        },
+        "{{ModId}}_Unknown_Winter_Mushroom_Seed": {
+          "Name": "Unknown Winter Mushroom Seed",
+          "DisplayName": "{{i18n:Unknown_Winter_Mushroom_Seed_name}}",
+          "Description": "{{i18n:Unknown_Winter_Mushroom_Seed_description}}",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price": 40,
+          "Texture": "Mods\\{{ModId}}\\mushroom_objects",
+          "SpriteIndex": "2",
+          "Edibility": -300,
+          "IsDrink": false,
+          "ExcludeFromFishingCollection": true,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true,
+          "ContextTags": []
+        },
+        "{{ModId}}_Unknown_Mushroom": {
+          "Name": "Unknown Mushroom",
+          "DisplayName": "{{i18n:Unknown_Mushroom_name}}",
+          "Description": "{{i18n:Unknown_Mushroom_description}}",
+          "Type": "Seeds",
+          "Category": -81,
+          "Price": 60,
+          "Texture": "Mods\\{{ModId}}\\mushroom_objects",
+          "SpriteIndex": "3",
+          "Edibility": 0,
+          "IsDrink": false,
+          "ExcludeFromFishingCollection": true,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true,
+          "ContextTags": [
+            "edible_mushroom",
+            "forage_item"
+          ]
+        },
+        "{{ModId}}_Unknown_Special_Mushroom": {
+          "Name": "Unknown Special Mushroom",
+          "DisplayName": "{{i18n:Unknown_Special_Mushroom_name}}",
+          "Description": "{{i18n:Unknown_Special_Mushroom_description}}",
+          "Type": "Seeds",
+          "Category": -81,
+          "Price": 80,
+          "Texture": "Mods\\{{ModId}}\\mushroom_objects",
+          "SpriteIndex": "4",
+          "Edibility": 0,
+          "IsDrink": false,
+          "ExcludeFromFishingCollection": true,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true,
+          "ContextTags": [
+            "edible_mushroom",
+            "forage_item"
+          ]
+        },
+        "{{ModId}}_Unknown_Winter_Mushroom": {
+          "Name": "Unknown Winter Mushroom",
+          "DisplayName": "{{i18n:Unknown_Winter_Mushroom_name}}",
+          "Description": "{{i18n:Unknown_Winter_Mushroom_description}}",
+          "Type": "Seeds",
+          "Category": -81,
+          "Price": 80,
+          "Texture": "Mods\\{{ModId}}\\mushroom_objects",
+          "SpriteIndex": "5",
+          "Edibility": 0,
+          "IsDrink": false,
+          "ExcludeFromFishingCollection": true,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true,
+          "ContextTags": [
+            "edible_mushroom",
+            "forage_item"
+          ]
+        },
+        "{{ModId}}_Frozen_Truffle": {
+          "Name": "Frozen Truffle",
+          "DisplayName": "{{i18n:Frozen_Truffle_name}}",
+          "Description": "{{i18n:Frozen_Truffle_description}}",
+          "Type": "Basic",
+          "Category": -81,
+          "Price": 230,
+          "Texture": "Mods\\{{ModId}}\\mushroom_objects",
+          "SpriteIndex": "6",
+          "Edibility": -300,
+          "IsDrink": false,
+          "ContextTags": []
+        },
+        "{{ModId}}_Amber_Cap": {
+          "Name": "Amber Cap",
+          "DisplayName": "{{i18n:Amber_Cap_name}}",
+          "Description": "{{i18n:Amber_Cap_description}}",
+          "Type": "Minerals",
+          "Category": -2,
+          "Price": 750,
+          "Texture": "Mods\\{{ModId}}\\mushroom_objects",
+          "SpriteIndex": "7",
+          "Edibility": -300,
+          "ContextTags": [
+            "color_yellow"
+          ]
+        },
+        "{{ModId}}_Truffle_Worm": {
+          "Name": "Truffle Worm",
+          "DisplayName": "{{i18n:Truffle_Worm_name}}",
+          "Description": "{{i18n:Truffle_Worm_description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 210,
+          "Texture": "Mods\\{{ModId}}\\mushroom_objects",
+          "SpriteIndex": "8",
+          "Edibility": -300,
+          "ContextTags": [
+            "fish_crab_pot",
+            "fish_ocean",
+            "fish_upright"
+          ],
+          "CustomFields": {}
+        },
+        "{{ModId}}_Mushroom_Spark": {
+          "Name": "Mushroom Spark",
+          "DisplayName": "{{i18n:Mushroom_Spark_name}}",
+          "Description": "{{i18n:Mushroom_Spark_description}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 2000,
+          "Texture": "Mods\\{{ModId}}\\mushroom_objects",
+          "SpriteIndex": 9,
+          "Edibility": 100,
+          "IsDrink": false,
+          "ContextTags": [],
+          "Buffs": [
+            {
+              "Duration": 450,
+              "CustomAttributes": {
+                "LuckLevel": 3,
+                "Speed": 4
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/MuseumRewards",
+      "Entries": {
+        "{{ModId}}_Unknown_Winter_Mushroom": {
+          "TargetContextTags": [
+            {
+              "Tag": "id_(o){{ModId}}_Amber_Cap",
+              "Count": 1
+            }
+          ],
+          "RewardItemId": "{{ModId}}_Mushroom_Spark",
+          "RewardItemCount": 5,
+          "FlagOnCompletion": true
+        }
+      }
+    },
+    {
+      "LogName": "Load Sprite for Hats",
+      "Action": "EditData",
+      "Target": "Data/Hats",
+      "Entries": {
+        "{{ModId}}_Shark_Mask": "Shark Mask/{{i18n: Shark_Mask_description}}/true/true//{{i18n: Shark_Mask_name}}/0/Mods\\{{ModId}}\\shark_mask"
+      }
+    },
+    {
+      "LogName": "Weapons Data",
+      "Action": "EditData",
+      "Target": "Data/Weapons",
+      "Entries": {
+        "{{ModId}}_Ectoplasm_Needle": {
+          "Name": "Ectoplasm Needle",
+          "DisplayName": "{{i18n:Ectoplasm_Needle_name}}",
+          "Description": "{{i18n:Ectoplasm_Needle_description}}",
+          "MinDamage": 1,
+          "MaxDamage": 1,
+          "Speed": 0,
+          "Knockback": 0.5,
+          "Precision": 0,
+          "Type": 1,
+          "MineBaseLevel": 0,
+          "MineMinLevel": -1,
+          "AreaOfEffect": -1,
+          "CritChance": 1,
+          "CritMultiplier": 1,
+          "CanBeLostOnDeath": false,
+          "Texture": "Mods\\{{ModId}}\\mushroom_weapons",
+          "SpriteIndex": 2
+        },
+        "{{ModId}}_Glow_Shard": {
+          "Name": "Glow Shard",
+          "DisplayName": "{{i18n:Glow_Shard_name}}",
+          "Description": "{{i18n:Glow_Shard_description}}",
+          "MinDamage": 200,
+          "MaxDamage": 300,
+          "Speed": -24,
+          "Knockback": 1.5,
+          "Precision": 100,
+          "Type": 2,
+          "MineBaseLevel": 0,
+          "MineMinLevel": -1,
+          "AreaOfEffect": -1,
+          "CritChance": 0.02,
+          "CritMultiplier": 3,
+          "CanBeLostOnDeath": false,
+          "Texture": "Mods\\{{ModId}}\\mushroom_weapons",
+          "SpriteIndex": 1
+        },
+        "{{ModId}}_Knight_Sword": {
+          "Name": "Knight Sword",
+          "DisplayName": "{{i18n:Knight_Sword_name}}",
+          "Description": "{{i18n:Knight_Sword_description}}",
+          "MinDamage": 60,
+          "MaxDamage": 75,
+          "Speed": 0,
+          "Defense": 30,
+          "Knockback": 1.0,
+          "Precision": 0,
+          "Type": 3,
+          "MineBaseLevel": 0,
+          "MineMinLevel": -1,
+          "AreaOfEffect": 0,
+          "CritChance": 0.02,
+          "CritMultiplier": 3.0,
+          "CanBeLostOnDeath": false,
+          "Texture": "Mods\\{{ModId}}\\mushroom_weapons",
+          "SpriteIndex": 0
+        }
+      }
+    }
+  ]
+}

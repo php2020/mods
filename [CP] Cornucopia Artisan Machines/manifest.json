@@ -1,0 +1,26 @@
+{
+  "Name": "Cornucopia - Artisan Machines 工匠机器",
+  "Author": "Cornucopia",
+  "Description": "Stardew Valley 1.6内容修补程序的额外工匠商品和机器模组",
+  "Version": "1.0.9",
+  "MinimumApiVersion": "4.0.0",
+  "UniqueID": "Cornucopia.ArtisanMachines",
+  "UpdateKeys": ["Nexus: 24842"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "selph.ExtraMachineConfig",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "Cornucopia.MoreCrops",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "Cornucopia.MoreFlowers",
+      "IsRequired": false
+    }
+  ]
+}

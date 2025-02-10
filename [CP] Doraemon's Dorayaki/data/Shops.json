@@ -1,0 +1,62 @@
+{
+    "Changes": [
+      {
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "TargetField": [
+          "Saloon",
+          "Items"
+        ],
+        "Entries": {
+          "{{ModId}}_Pumpkin_Dorayaki": {
+            "Id": "{{ModId}}_Pumpkin_Dorayaki",
+            "ItemId": "{{ModId}}_Pumpkin_Dorayaki",
+            "Price": 1000,
+            "IsRecipe": "true"
+          },
+          "{{ModId}}_Blueberry_Dorayaki": {
+            "Id": "{{ModId}}_Blueberry_Dorayaki",
+            "ItemId": "{{ModId}}_Blueberry_Dorayaki",
+            "Price": 1000,
+            "IsRecipe": "true"
+          },
+          "{{ModId}}_Strawberry_Dorayaki": {
+            "Id": "{{ModId}}_Strawberry_Dorayaki",
+            "ItemId": "{{ModId}}_Strawberry_Dorayaki",
+            "Price": 1000,
+            "IsRecipe": "true"
+          },
+          "{{ModId}}_Cream_Dorayaki": {
+            "Id": "{{ModId}}_Cream_Dorayaki",
+            "ItemId": "{{ModId}}_Cream_Dorayaki",
+            "Price": 1000,
+            "IsRecipe": "true"
+          },
+          "{{ModId}}_Orange_Dorayaki": {
+            "Id": "{{ModId}}_Orange_Dorayaki",
+            "ItemId": "{{ModId}}_Orange_Dorayaki",
+            "Price": 1000,
+            "IsRecipe": "true"
+          },
+          "{{ModId}}_Powdermelon_Dorayaki": {
+            "Id": "{{ModId}}_Powdermelon_Dorayaki",
+            "ItemId": "{{ModId}}_Powdermelon_Dorayaki",
+            "Price": 1000,
+            "IsRecipe": "true"
+          },
+          "{{ModId}}_Coconut_Ash_Dorayaki": {
+            "Id": "{{ModId}}_Coconut_Ash_Dorayaki",
+            "ItemId": "{{ModId}}_Coconut_Ash_Dorayaki",
+            "Price": 1000,
+            "IsRecipe": "true"
+          },
+          "{{ModId}}_Matcha_Dorayaki": {
+            "Id": "{{ModId}}_Matcha_Dorayaki",
+            "ItemId": "{{ModId}}_Matcha_Dorayaki",
+            "Price": 1000,
+            "IsRecipe": "true"
+          }
+        }
+      }
+    ]
+}

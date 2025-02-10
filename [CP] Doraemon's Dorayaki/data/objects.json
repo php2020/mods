@@ -1,0 +1,348 @@
+{
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/Dorayakis",  
+            "FromFile": "assets/objects/Dorayakis.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModId}}_Pumpkin_Dorayaki": {
+                    "Name": "Pumpkin_Dorayaki",
+                    "DisplayName": "{{i18n:Pumpkin_Dorayaki.DisplayName}}",
+                    "Description": "{{i18n:Pumpkin_Dorayaki.Description}}",
+                    "Type": "Cooking", 
+                    "Category": -7,
+                    "Price": 750,
+                    "Texture": "Mods/{{ModId}}/Dorayakis",
+                    "SpriteIndex": 0,
+                    "Edibility": 90,
+                    "ContextTags": [
+                      "Dorayaki_item",
+                      "edible_Dorayaki_item"
+                    ],
+                    "IsDrink": false,
+                    "Buffs": [ 
+                    {
+                          "Id": "Food",
+                          "BuffId": null,
+                          "IconTexture": null,
+                          "IconSpriteIndex": 0,
+                          "Duration": 400,
+                          "IsDebuff": false,
+                          "GlowColor": null,
+                          "CustomAttributes": {
+                          "FarmingLevel": 2.0,
+                          "FishingLevel": 0.0,
+                          "MiningLevel": 0.0,
+                          "LuckLevel": 0.0,
+                          "ForagingLevel": 0.0,
+                          "MaxStamina": 0.0,
+                          "MagneticRadius": 0.0,
+                          "Speed": 1.0,
+                          "Defense": 0.0,
+                          "Attack": 0.0
+                        }
+                      } 
+                    ]
+                },
+                "{{ModId}}_Matcha_Dorayaki": {
+                    "Name": "Matcha_Dorayaki",
+                    "DisplayName": "{{i18n:Matcha_Dorayaki.DisplayName}}",
+                    "Description": "{{i18n:Matcha_Dorayaki.Description}}",
+                    "Type": "Cooking", 
+                    "Category": -7,
+                    "Price": 750,
+                    "Texture": "Mods/{{ModId}}/Dorayakis",
+                    "SpriteIndex": 1,
+                    "Edibility": 80,
+                    "ContextTags": [
+                      "Dorayaki_item",
+                      "edible_Dorayaki_item"
+                    ],
+                    "IsDrink": false,
+                    "Buffs": [ 
+                    {
+                          "Id": "Food",
+                          "BuffId": null,
+                          "IconTexture": null,
+                          "IconSpriteIndex": 0,
+                          "Duration": 400,
+                          "IsDebuff": false,
+                          "GlowColor": null,
+                          "CustomAttributes": {
+                          "FarmingLevel": 0.0,
+                          "FishingLevel": 0.0,
+                          "MiningLevel": 0.0,
+                          "LuckLevel": 0.0,
+                          "ForagingLevel": 2.0,
+                          "MaxStamina": 0.0,
+                          "MagneticRadius": 0.0,
+                          "Speed": 1.0,
+                          "Defense": 0.0,
+                          "Attack": 0.0
+                        }
+                      } 
+                    ]
+                },
+            "{{ModId}}_Blueberry_Dorayaki": {
+                "Name": "Blueberry_Dorayaki",
+                "DisplayName": "{{i18n:Blueberry_Dorayaki.DisplayName}}",
+                "Description": "{{i18n:Blueberry_Dorayaki.Description}}",
+                "Type": "Cooking", 
+                "Category": -7,
+                "Price": 750,
+                "Texture": "Mods/{{ModId}}/Dorayakis",
+                "SpriteIndex": 2,
+                "Edibility": 45,
+                "ContextTags": [
+                  "Dorayaki_item",
+                  "edible_Dorayaki_item"
+                ],
+                "IsDrink": false,
+                "Buffs": [ 
+                {
+                      "Id": "Food",
+                      "BuffId": null,
+                      "IconTexture": null,
+                      "IconSpriteIndex": 0,
+                      "Duration": 400,
+                      "IsDebuff": false,
+                      "GlowColor": null,
+                      "CustomAttributes": {
+                      "FarmingLevel": 0.0,
+                      "FishingLevel": 3.0,
+                      "MiningLevel": 0.0,
+                      "LuckLevel": 0.0,
+                      "ForagingLevel": 0.0,
+                      "MaxStamina": 0.0,
+                      "MagneticRadius": 0.0,
+                      "Speed": 0.0,
+                      "Defense": 0.0,
+                      "Attack": 0.0
+                    }
+                  } 
+                ]
+            },
+            "{{ModId}}_Strawberry_Dorayaki": {
+                "Name": "Strawberry_Dorayaki",
+                "DisplayName": "{{i18n:Strawberry_Dorayaki.DisplayName}}",
+                "Description": "{{i18n:Strawberry_Dorayaki.Description}}",
+                "Type": "Cooking", 
+                "Category": -7,
+                "Price": 750,
+                "Texture": "Mods/{{ModId}}/Dorayakis",
+                "SpriteIndex": 3,
+                "Edibility": 80,
+                "ContextTags": [
+                  "Dorayaki_item",
+                  "edible_Dorayaki_item"
+                ],
+                "IsDrink": false,
+                "Buffs": [ 
+                {
+                      "Id": "Food",
+                      "BuffId": null,
+                      "IconTexture": null,
+                      "IconSpriteIndex": 0,
+                      "Duration": 400,
+                      "IsDebuff": false,
+                      "GlowColor": null,
+                      "CustomAttributes": {
+                      "FarmingLevel": 2.0,
+                      "FishingLevel": 0.0,
+                      "MiningLevel": 0.0,
+                      "LuckLevel": 0.0,
+                      "ForagingLevel": 0.0,
+                      "MaxStamina": 30.0,
+                      "MagneticRadius": 0.0,
+                      "Speed": 1.5,
+                      "Defense": 0.0,
+                      "Attack": 0.0
+                    }
+                  } 
+                ]
+            },
+            "{{ModId}}_Cream_Dorayaki": {
+                "Name": "Cream_Dorayaki",
+                "DisplayName": "{{i18n:Cream_Dorayaki.DisplayName}}",
+                "Description": "{{i18n:Cream_Dorayaki.Description}}",
+                "Type": "Cooking", 
+                "Category": -7,
+                "Price": 750,
+                "Texture": "Mods/{{ModId}}/Dorayakis",
+                "SpriteIndex": 4,
+                "Edibility": 120,
+                "ContextTags": [
+                  "Dorayaki_item",
+                  "edible_Dorayaki_item"
+                ],
+                "IsDrink": false,
+                "Buffs": [ 
+                {
+                      "Id": "Food",
+                      "BuffId": null,
+                      "IconTexture": null,
+                      "IconSpriteIndex": 0,
+                      "Duration": 400,
+                      "IsDebuff": false,
+                      "GlowColor": null,
+                      "CustomAttributes": {
+                      "FarmingLevel": 0.0,
+                      "FishingLevel": 0.0,
+                      "MiningLevel": 0.0,
+                      "LuckLevel": 0.0,
+                      "ForagingLevel": 0.0,
+                      "MaxStamina": 60.0,
+                      "MagneticRadius": 0.0,
+                      "Speed": 1.5,
+                      "Defense": 0.0,
+                      "Attack": 0.0
+                    }
+                  } 
+                ]
+            },
+            "{{ModId}}_Orange_Dorayaki": {
+                "Name": "Orange_Dorayaki",
+                "DisplayName": "{{i18n:Orange_Dorayaki.DisplayName}}",
+                "Description": "{{i18n:Orange_Dorayaki.Description}}",
+                "Type": "Cooking", 
+                "Category": -7,
+                "Price": 750,
+                "Texture": "Mods/{{ModId}}/Dorayakis",
+                "SpriteIndex": 5,
+                "Edibility": 70,
+                "ContextTags": [
+                  "Dorayaki_item",
+                  "edible_Dorayaki_item"
+                ],
+                "IsDrink": false,
+                "Buffs": [ 
+                {
+                      "Id": "Food",
+                      "BuffId": null,
+                      "IconTexture": null,
+                      "IconSpriteIndex": 0,
+                      "Duration": 400,
+                      "IsDebuff": false,
+                      "GlowColor": null,
+                      "CustomAttributes": {
+                      "FarmingLevel": 1.0,
+                      "FishingLevel": 0.0,
+                      "MiningLevel": 0.0,
+                      "LuckLevel": 1.0,
+                      "ForagingLevel": 0.0,
+                      "MaxStamina": 0.0,
+                      "MagneticRadius": 32.0,
+                      "Speed": 1.0,
+                      "Defense": 0.0,
+                      "Attack": 0.0
+                    }
+                  } 
+                ]
+            },
+            "{{ModId}}_Powdermelon_Dorayaki": {
+                "Name": "Powdermelon_Dorayaki",
+                "DisplayName": "{{i18n:Powdermelon_Dorayaki.DisplayName}}",
+                "Description": "{{i18n:Powdermelon_Dorayaki.Description}}",
+                "Type": "Cooking", 
+                "Category": -7,
+                "Price": 750,
+                "Texture": "Mods/{{ModId}}/Dorayakis",
+                "SpriteIndex": 6,
+                "Edibility": 90,
+                "ContextTags": [
+                  "Dorayaki_item",
+                  "edible_Dorayaki_item"
+                ],
+                "IsDrink": false,
+                "Buffs": [ 
+                {
+                      "Id": "Food",
+                      "BuffId": null,
+                      "IconTexture": null,
+                      "IconSpriteIndex": 0,
+                      "Duration": 400,
+                      "IsDebuff": false,
+                      "GlowColor": null,
+                      "CustomAttributes": {
+                      "FarmingLevel": 0.0,
+                      "FishingLevel": 0.0,
+                      "MiningLevel": 0.0,
+                      "LuckLevel": 0.0,
+                      "ForagingLevel": 0.0,
+                      "MaxStamina": 0.0,
+                      "MagneticRadius": 32.0,
+                      "Speed": 1.0,
+                      "Defense": 2.0,
+                      "Attack": 2.0
+                    }
+                  } 
+                ]
+            },
+            "{{ModId}}_Coconut_Ash_Dorayaki": {
+                "Name": "Coconut_Ash_Dorayaki",
+                "DisplayName": "{{i18n:Coconut_Ash_Dorayaki.DisplayName}}",
+                "Description": "{{i18n:Coconut_Ash_Dorayaki.Description}}",
+                "Type": "Cooking", 
+                "Category": -7,
+                "Price": 750,
+                "Texture": "Mods/{{ModId}}/Dorayakis",
+                "SpriteIndex": 7,
+                "Edibility": 80,
+                "ContextTags": [
+                  "Dorayaki_item",
+                  "edible_Dorayaki_item"
+                ],
+                "IsDrink": false,
+                "Buffs": [ 
+                {
+                      "Id": "Food",
+                      "BuffId": null,
+                      "IconTexture": null,
+                      "IconSpriteIndex": 0,
+                      "Duration": 400,
+                      "IsDebuff": false,
+                      "GlowColor": null,
+                      "CustomAttributes": {
+                      "FarmingLevel": 0.0,
+                      "FishingLevel": 0.0,
+                      "MiningLevel": 3.0,
+                      "LuckLevel": 0.0,
+                      "ForagingLevel": 0.0,
+                      "MaxStamina": 0.0,
+                      "MagneticRadius": 64.0,
+                      "Speed": 1.5,
+                      "Defense": 0.0,
+                      "Attack": 0.0
+                    }
+                  } 
+                ]
+            }
+        }
+      }, 
+        {
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {
+                "Pumpkin_Dorayaki": "246 2 276 1 245 1/9999 9999/{{ModId}}_Pumpkin_Dorayaki/null/{{i18n:Pumpkin_Dorayaki.DisplayName}}",
+                "Matcha_Dorayaki": "246 2 815 1 245 1/9999 9999/{{ModId}}_Matcha_Dorayaki/null/{{i18n:Matcha_Dorayaki.DisplayName}}",
+                "Blueberry_Dorayaki": "246 2 258 2 245 1/9999 9999/{{ModId}}_Blueberry_Dorayaki/null/{{i18n:Blueberry_Dorayaki.DisplayName}}",
+                "Strawberry_Dorayaki": "246 2 400 1 245 1/9999 9999/{{ModId}}_Strawberry_Dorayaki/null/{{i18n:Strawberry_Dorayaki.DisplayName}}",
+                "Cream_Dorayaki": "246 2 -6 1 -5 1 245 1/9999 9999/{{ModId}}_Cream_Dorayaki/null/{{i18n:Cream_Dorayaki.DisplayName}}",
+                "Orange_Dorayaki": "246 2 635 1 245 1/9999 9999/{{ModId}}_Orange_Dorayaki/null/{{i18n:Orange_Dorayaki.DisplayName}}",
+                "Powdermelon_Dorayaki": "246 2 Powdermelon 1 245 1/9999 9999/{{ModId}}_Powdermelon_Dorayaki/null/{{i18n:Powdermelon_Dorayaki.DisplayName}}",
+                "Coconut_Ash_Dorayaki": "246 2 88 1 382 1 245 1/9999 9999/{{ModId}}_Coconut_Ash_Dorayaki/null/{{i18n:Coconut_Ash_Dorayaki.DisplayName}}"
+            }
+        }, 
+        {
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "Gourmet Table Cloth": "388 50 428 2 709 5 MysticSyrup 1/Home/{{ModId}}_Gourmet_Table_Cloth 1/true/Farming 9/"
+              }
+        }
+    ]
+}

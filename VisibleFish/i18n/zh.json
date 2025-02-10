@@ -1,0 +1,12 @@
+{
+  "config.DrawFishShadows.DisplayedName": "鱼群阴影",
+  "config.MaximumFish.DisplayedName": "最大鱼数量",
+  "config.FishDensity.DisplayedName": "鱼群密度",
+  "config.TrashOutside.DisplayedName": "格外的垃圾",
+  "config.TrashFarm.DisplayedName": "垃圾场",
+  "config.DisableTrashLvl10.DisplayedName": "禁用垃圾桶10级",
+  "config.ShowTreasure.DisplayedName": "展示宝藏",
+  "config.RotateAlgae.DisplayedName": "藻类植物",
+  "config.FilterEels.DisplayedName": "过滤器",
+  "config.DrawItemShadows.DisplayedName": "绘制阴影"
+}

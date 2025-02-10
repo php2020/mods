@@ -1,0 +1,10 @@
+{
+    "Name": "Gift Taste Helper Continued x2 生日礼物显示",
+    "Author": "JoXW, Isi0, tstaples (aka catman)",
+    "Version": "1.2.3",
+    "MinimumApiVersion": "4.0.0",
+    "Description": "在方便的工具提示中显示NPC礼物",
+    "UniqueID": "JoXW.GiftTasteHelper",
+    "EntryDll": "GiftTasteHelper.dll",
+    "UpdateKeys": ["Nexus:21001"]
+}

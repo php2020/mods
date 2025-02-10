@@ -1,0 +1,9 @@
+﻿{
+    "Name": "SkipFishingMinigame 跳过钓鱼",
+    "Author": "DewMods",
+    "Version": "0.7.4",
+    "Description": "直接跳过钓鱼动画",
+    "UniqueID": "DewMods.StardewValleyMods.SkipFishingMinigame",
+    "EntryDll": "SkipFishingMinigame.dll",
+    "UpdateKeys": ["Nexus:2697"]
+}

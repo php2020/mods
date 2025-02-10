@@ -1,0 +1,17 @@
+﻿{
+    "Name": "StardewHack 转译库",
+    "Author": "bcmpinc",
+    "Version": "7.4",
+    "Description": "一个供我的其他模组使用的转译库，本身功能不多。",
+    "UniqueID": "bcmpinc.StardewHack",
+    "EntryDll": "StardewHack.dll",
+    "MinimumApiVersion": "4.0.0",
+    "UpdateKeys": ["Nexus:3213"],
+    "Dependencies": [
+        {
+            "UniqueId": "spacechase0.GenericModConfigMenu",
+            "MinimumVersion": "1.12",
+            "IsRequired": false
+        }
+    ]
+}

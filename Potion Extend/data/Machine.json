@@ -1,0 +1,215 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "Entries": {
+        "(BC){{ModId}}_Crucible": {
+          "OutputRules": [
+            {
+              "Id": "Sap_Potion",
+              "Triggers":[
+                {
+                  "Id": "Sap_Potion",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)92",
+                  "RequiredCount": 5
+                }
+              ],
+              "OutputItem":[
+                {
+                  "ItemId":"(O){{ModId}}_Sap_Potion"
+                }
+              ],
+              "MinutesUntilReady": 240
+            },
+            {
+              "Id": "Moss_Potion",
+              "Triggers":[
+                {
+                  "Id": "Moss_Potion",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "Moss",
+                  "RequiredCount": 5
+                }
+              ],
+              "OutputItem":[
+                {
+                  "ItemId":"(O){{ModId}}_Moss_Potion"
+                }
+              ],
+              "MinutesUntilReady": 240
+            },
+            {
+              "Id": "Red_Mushroom_Potion",
+              "Triggers":[
+                {
+                  "Id": "Red_Mushroom_Potion",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)420",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem":[
+                {
+                  "ItemId":"(O){{ModId}}_Red_Mushroom_Potion"
+                }
+              ],
+              "MinutesUntilReady": 240
+            },
+            {
+              "Id": "Purple_Mushroom_Potion",
+              "Triggers":[
+                {
+                  "Id": "Purple_Mushroom_Potion",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)422",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem":[
+                {
+                  "ItemId":"(O){{ModId}}_Purple_Mushroom_Potion"
+                }
+              ],
+              "MinutesUntilReady": 240
+            },
+            {
+              "Id": "Ginger_Potion",
+              "Triggers":[
+                {
+                  "Id": "Ginger_Potion",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)829",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem":[
+                {
+                  "ItemId":"(O){{ModId}}_Ginger_Potion"
+                }
+              ],
+              "MinutesUntilReady": 240
+            },
+            {
+              "Id": "Iridium_Crab_Potion",
+              "Triggers":[
+                {
+                  "Id": "Iridium_Crab_Potion",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)386",
+                  "RequiredCount": 5
+                }
+              ],
+              "OutputItem":[
+                {
+                  "ItemId":"(O){{ModId}}_Iridium_Crab_Potion"
+                }
+              ],
+              "MinutesUntilReady": 240
+            },
+            {
+              "Id": "Ink_Potion",
+              "Triggers":[
+                {
+                  "Id": "Ink_Potion",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)814",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem":[
+                {
+                  "ItemId":"(O){{ModId}}_Ink_Potion"
+                }
+              ],
+              "MinutesUntilReady": 240
+            },
+            {
+              "Id": "Cold_Potion",
+              "Triggers":[
+                {
+                  "Id": "Cold_Potion",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)800",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem":[
+                {
+                  "ItemId":"(O){{ModId}}_Cold_Potion"
+                }
+              ],
+              "MinutesUntilReady": 240
+            },
+            {
+              "Id": "Hot_Potion",
+              "Triggers":[
+                {
+                  "Id": "Hot_Potion",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)848",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem":[
+                {
+                  "ItemId":"(O){{ModId}}_Hot_Potion"
+                }
+              ],
+              "MinutesUntilReady": 240
+            },
+            {
+              "Id": "Golden_Potion",
+              "Triggers":[
+                {
+                  "Id": "Golden_Potion",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)336",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem":[
+                {
+                  "ItemId":"(O){{ModId}}_Golden_Potion"
+                }
+              ],
+              "MinutesUntilReady": 240
+            },
+            {
+              "Id": "Rainbow_Potion",
+              "Triggers":[
+                {
+                  "Id": "Rainbow_Potion",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)74",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem":[
+                {
+                  "ItemId":"(O){{ModId}}_Rainbow_Potion"
+                }
+              ],
+              "MinutesUntilReady": 240
+            }
+            ],
+          "ShowNextIndexWhileWorking": true,
+          "LightWhileWorking": {
+            "Radius": 1.5,
+            "Color": "DarkCyan"
+          },
+          "LoadEffects": [
+            {
+              "Sounds": [
+                {
+                  "Id": "furnace"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

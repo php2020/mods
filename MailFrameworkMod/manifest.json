@@ -1,0 +1,17 @@
+﻿{
+    "Name": "Mail Framework Mod 邮件扩展",
+    "Author": "Digus",
+    "Version": "1.18.0",
+    "MinimumApiVersion": "4.0.0",
+    "Description": "在游戏中发送邮件的实用类。",
+    "UniqueID": "DIGUS.MailFrameworkMod",
+    "EntryDll": "MailFrameworkMod.dll",
+    "Dependencies": [
+        {
+            "UniqueID": "Cherry.ExpandedPreconditionsUtility",
+            "MinimumVersion": "1.0.1",
+            "IsRequired": false
+        }
+    ],
+    "UpdateKeys": ["Nexus:1536"]
+}

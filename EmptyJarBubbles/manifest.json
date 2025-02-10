@@ -1,0 +1,10 @@
+{
+  "Name": "Empty Jar Bubbles 空桶提示",
+  "Author": "temisthem",
+  "Version": "1.0.3",
+  "Description": "Never leave accidentally leave a jar empty again!",
+  "UniqueID": "tem696969696969.EmptyJarBubbles",
+  "EntryDll": "EmptyJarBubbles.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": ["Nexus:22598"]
+}

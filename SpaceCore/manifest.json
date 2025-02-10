@@ -1,0 +1,25 @@
+{
+    /*
+    |此文件由ModManifestBuilder自动更新
+    |项目编译时。
+    | 
+    |对此文件所做的更改可能会被覆盖。
+    | 
+    */
+    "$schema": "https://smapi.io/schemas/manifest.json",
+    "UniqueID": "spacechase0.SpaceCore",
+    "Name": "SpaceCore 通用模组配置",
+    "Author": "spacechase0",
+    "Version": "1.27.0",
+    "Description": "The space-iest of cores. (框架模型)",
+    "MinimumApiVersion": "4.1",
+    "MinimumGameVersion": "1.6.14",
+    "EntryDll": "SpaceCore.dll",
+    "Dependencies": [
+        {
+            "UniqueID": "Pathoschild.ContentPatcher",
+            "IsRequired": false
+        }
+    ],
+    "UpdateKeys": ["Nexus:1348"]
+}

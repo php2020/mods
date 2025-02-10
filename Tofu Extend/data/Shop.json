@@ -1,0 +1,123 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "SeedShop",
+        "Items"
+      ],
+      "Entries": {
+        "{{ModId}}_Soybean_Seed_1": {
+          "Condition":"SEASON summer",
+          "Id": "{{ModId}}_Soybean_Seed_1",
+          "ItemId": "{{ModId}}_Soybean_Seed",
+          "Price": 30
+        },
+        "{{ModId}}_Soybean_Seed_2": {
+          "Condition":"SEASON fall",
+          "Id": "{{ModId}}_Soybean_Seed_2",
+          "ItemId": "{{ModId}}_Soybean_Seed",
+          "Price": 30
+        },
+        "Beans2Beans": {
+          "Condition":"SEASON summer",
+          "Id": "{{ModId}}_Soybean",
+          "ItemId": "{{ModId}}_Soybean",
+          "TradeItemId":"(O)188",
+          "Price": 0
+        },
+        "Beans2Beans_seed": {
+          "Condition":"SEASON summer",
+          "Id": "{{ModId}}_Soybean_Seed_3",
+          "ItemId": "{{ModId}}_Soybean_Seed",
+          "TradeItemId":"(O)473",
+          "Price": 0
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "Saloon",
+        "Items"
+      ],
+      "Entries": {
+        "{{ModId}}_Spicy_Bean_Dregs_Bar": {
+          "Condition":"DAY_OF_WEEK Monday",
+          "Id": "{{ModId}}_Spicy_Bean_Dregs_Bar",
+          "ItemId": "{{ModId}}_Spicy_Bean_Dregs_Bar",
+          "Price": 250,
+          "IsRecipe": true
+        },
+        "{{ModId}}_Soymilk": {
+          "Condition":"DAY_OF_WEEK Tuesday",
+          "Id": "{{ModId}}_Soymilk",
+          "ItemId": "{{ModId}}_Soymilk",
+          "Price": 250,
+          "IsRecipe": true
+        },
+        "{{ModId}}_Soymilk_Honey": {
+          "Condition":"DAY_OF_WEEK Wednesday",
+          "Id": "{{ModId}}_Soymilk_Honey",
+          "ItemId": "{{ModId}}_Soymilk_Honey",
+          "Price": 250,
+          "IsRecipe": true
+        },
+        "{{ModId}}_Soymilk_Maple": {
+          "Condition":"DAY_OF_WEEK Thursday",
+          "Id": "{{ModId}}_Soymilk_Maple",
+          "ItemId": "{{ModId}}_Soymilk_Maple",
+          "Price": 250,
+          "IsRecipe": true
+        },
+        "{{ModId}}_Soymilk_Mystery": {
+          "Condition":"DAY_OF_WEEK Friday",
+          "Id": "{{ModId}}_Soymilk_Mystery",
+          "ItemId": "{{ModId}}_Soymilk_Mystery",
+          "Price": 250,
+          "IsRecipe": true
+        },
+        "{{ModId}}_Soymilk_Tea": {
+          "Condition":"DAY_OF_WEEK Saturday",
+          "Id": "{{ModId}}_Soymilk_Tea",
+          "ItemId": "{{ModId}}_Soymilk_Tea",
+          "Price": 250,
+          "IsRecipe": true
+        },
+        "{{ModId}}_Soymilk_Coffee": {
+          "Condition":"DAY_OF_WEEK Sunday",
+          "Id": "{{ModId}}_Soymilk_Coffee",
+          "ItemId": "{{ModId}}_Soymilk_Coffee",
+          "Price": 250,
+          "IsRecipe": true
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "DesertTrade",
+        "Items"
+      ],
+      "Entries": {
+        "{{ModId}}_Inari_Sushi": {
+          "Id": "{{ModId}}_Inari_Sushi",
+          "ItemId": "{{ModId}}_Inari_Sushi",
+          "TradeItemId":"(O)432",
+          "Price": 0,
+          "IsRecipe": true
+        },
+        "{{ModId}}_Mapo_Tofu": {
+          "Id": "{{ModId}}_Mapo_Tofu",
+          "ItemId": "{{ModId}}_Mapo_Tofu",
+          "TradeItemId":"(O){{ModId}}_Iridium_Tofu",
+          "Price": 0,
+          "IsRecipe": true
+        }
+      }
+    }
+  ]
+}

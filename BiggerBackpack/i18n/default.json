@@ -1,0 +1,9 @@
+{
+    // Translation provided by: <leave your name or nexus/discord username here>
+	"SetBackpackSizeCommand": "设置玩家背包的大小。这必须是12的倍数",
+	"Purchase": "购买需要花费 ({{cost}}g)",
+	"BackpackUpgrade": "背包升级-- 48 格",
+	"PremiumPack": "超值背包",
+	"BackpackCostName": "背包价格",
+	"BackpackCostTooltip": "在商店里买这个背包要花多少钱。",
+}

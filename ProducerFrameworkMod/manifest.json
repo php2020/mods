@@ -1,0 +1,10 @@
+﻿{
+    "Name": "Producer Framework Mod 生产规则框架",
+    "Author": "Digus",
+    "Version": "1.9.6",
+    "Description": "一个框架，用于添加规则以生产对象或修改原版规则。",
+    "UniqueID": "Digus.ProducerFrameworkMod",
+    "EntryDll": "ProducerFrameworkMod.dll",
+    "MinimumApiVersion": "3.13.0",
+    "UpdateKeys": ["Nexus:4970"]
+}

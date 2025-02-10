@@ -1,0 +1,17 @@
+{
+  "Name": "Bigger Backpack 更大的背包",
+  "Author": "spacechase0, yoseiri, bcmpinc",
+  "Version": "7.3",
+  "Description": "增加背包空间",
+  "UniqueID": "spacechase0.BiggerBackpack",
+  "EntryDll": "BiggerBackpack.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": ["Nexus:1845", "Chucklefish:5191"],
+  "spacechase0": "bigger-backpack",
+  "Dependencies": [
+    {
+      "UniqueID": "bcmpinc.StardewHack",
+      "MinimumVersion": "7.1"
+    }
+  ]
+}

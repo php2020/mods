@@ -1,0 +1,79 @@
+{
+  "Changes": [
+    {
+      "LogName": "Aquarium Data",
+      "Action": "EditData",
+      "Target": "Data/AquariumFish",
+      "Entries": {
+        "{{ModId}}_Truffle_Worm": "0/fish/////Mods\\{{ModId}}\\AquariumFish"
+        //松露虫
+      }
+    },
+
+    {
+      "LogName": "Crab Pot Fish",
+      "Action": "EditData",
+      "Target": "Data/Fish",
+      "Entries": {
+        "{{ModId}}_Truffle_Worm": "{{ModId}}_Truffle_Worm/trap/.10/681 .35/ocean/1/6"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+        "{{ModId}}_Truffle_Worm": {
+          "RequiredTags": [
+            "id_(O){{ModId}}_Truffle_Worm"
+          ],
+          "SpawnTime": -1,
+          "ProducedItems": [
+            {
+              "RequiredPopulation": 0,
+              "Chance": 0.4,
+              "ItemID": 404,
+              "MinQuantity": 5,
+              "MaxQuantity": 5
+            },//普通蘑菇
+            {
+              "RequiredPopulation": 4,
+              "Chance": 0.4,
+              "ItemID": 281,
+              "MinQuantity": 5,
+              "MaxQuantity": 5
+            },//鸡油菌
+            {
+              "RequiredPopulation": 7,
+              "Chance": 0.4,
+              "ItemID": 422,
+              "MinQuantity": 5,
+              "MaxQuantity": 5
+            },//紫蘑菇
+            {
+              "RequiredPopulation": 7,
+              "Chance": 0.4,
+              "ItemID": 205,
+              "MinQuantity": 2,
+              "MaxQuantity": 4
+            },//炒蘑菇
+            {
+              "RequiredPopulation": 9,
+              "Chance": 0.4,
+              "ItemID": 430,
+              "MinQuantity": 2,
+              "MaxQuantity": 4
+            }//松露
+          ],
+          "PopulationGates": {
+            "4": [
+              "420 5"
+            ],//红蘑菇*5
+            "7": [
+              "430 1"
+            ]//松露*1
+          }
+        }
+      }
+    }
+  ]
+}

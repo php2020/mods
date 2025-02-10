@@ -1,0 +1,709 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "Entries": {
+        "(BC){{ModId}}_Tofu_Pot": {
+          "OutputRules": [
+            {
+              "Id": "Egg_Tofu_biggest",
+              "Triggers": [
+                {
+                  "Id": "biggest_egg",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)289",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Egg_Tofu",
+                  "ItemId": "(O){{ModId}}_Egg_Tofu",
+                  "ObjectInternalName": "{0} {{ModId}}_Egg_Tofu",
+                  "ObjectDisplayName": "[LocalizedText Strings\\Objects:{{ModId}}_Egg_Tofu %PRESERVED_DISPLAY_NAME]",
+                  "PreserveId": "DROP_IN",
+                  "MinStack": 10,
+                  "CopyQuality": true
+                }
+              ],
+              "MinutesUntilReady": 350
+            },
+            {
+              "Id": "Egg_Tofu_golden",
+              "Triggers": [
+                {
+                  "Id": "egg_golden",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)928",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Egg_Tofu",
+                  "ItemId": "(O){{ModId}}_Egg_Tofu",
+                  "ObjectInternalName": "{0} {{ModId}}_Egg_Tofu",
+                  "ObjectDisplayName": "[LocalizedText Strings\\Objects:{{ModId}}_Egg_Tofu %PRESERVED_DISPLAY_NAME]",
+                  "PreserveId": "DROP_IN",
+                  "MinStack": 3,
+                  "Quality": 2
+                }
+              ],
+              "MinutesUntilReady": 350
+            },
+            {
+              "Id": "Egg_Tofu_small",
+              "Triggers": [
+                {
+                  "Id": "small_egg_1",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)176",
+                  "RequiredCount": 1
+                },
+                {
+                  "Id": "small_egg_2",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)180",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Egg_Tofu",
+                  "ItemId": "(O){{ModId}}_Egg_Tofu",
+                  "ObjectInternalName": "{0} {{ModId}}_Egg_Tofu",
+                  "ObjectDisplayName": "[LocalizedText Strings\\Objects:{{ModId}}_Egg_Tofu %PRESERVED_DISPLAY_NAME]",
+                  "PreserveId": "DROP_IN",
+                  "MinStack": 1
+                }
+              ],
+              "MinutesUntilReady": 350
+            },
+            {
+              "Id": "Egg_Tofu_big",
+              "Triggers": [
+                {
+                  "Id": "egg_big_1",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)174",
+                  "RequiredCount": 1
+                },
+                {
+                  "Id": "egg_big_1",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)182",
+                  "RequiredCount": 1
+                },
+                {
+                  "Id": "egg_duck",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)442",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Egg_Tofu",
+                  "ItemId": "(O){{ModId}}_Egg_Tofu",
+                  "ObjectInternalName": "{0} {{ModId}}_Egg_Tofu",
+                  "ObjectDisplayName": "[LocalizedText Strings\\Objects:{{ModId}}_Egg_Tofu %PRESERVED_DISPLAY_NAME]",
+                  "PreserveId": "DROP_IN",
+                  "MinStack": 1,
+                  "Quality": 2
+                }
+              ],
+              "MinutesUntilReady": 350
+            },
+            {
+              "Id": "Egg_Tofu_void",
+              "Triggers": [
+                {
+                  "Id": "egg_void",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)305",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Void_Egg_Tofu",
+                  "ItemId": "(O){{ModId}}_Void_Egg_Tofu",
+                  "MinStack": 1,
+                  "Quality": 0
+                },
+                {
+                  "Id": "Void_Egg_Tofu",
+                  "ItemId": "(O){{ModId}}_Void_Egg_Tofu",
+                  "MinStack": 1,
+                  "Quality": 1
+                },
+                {
+                  "Id": "Void_Egg_Tofu",
+                  "ItemId": "(O){{ModId}}_Void_Egg_Tofu",
+                  "MinStack": 1,
+                  "Quality": 2
+                },
+                {
+                  "Id": "Void_Egg_Tofu",
+                  "ItemId": "(O){{ModId}}_Void_Egg_Tofu",
+                  "MinStack": 1,
+                  "Quality": 3
+                }
+              ],
+              "MinutesUntilReady": 350
+            },
+            {
+              "Id": "Egg_Tofu_ancient",
+              "Triggers": [
+                {
+                  "Id": "egg_Aancient",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)107",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Ancient_Egg_Tofu",
+                  "ItemId": "(O){{ModId}}_Ancient_Egg_Tofu",
+                  "MinStack": 1,
+                  "CopyQuality": true
+                }
+              ],
+              "MinutesUntilReady": 350
+            },
+            {
+              "Id": "Egg_Tofu_default",
+              "Triggers": [
+                {
+                  "RequiredTags": [
+                    "category_egg"
+                  ],
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Egg_Tofu",
+                  "ItemId": "(O){{ModId}}_Egg_Tofu",
+                  "ObjectInternalName": "{0} {{ModId}}_Egg_Tofu",
+                  "ObjectDisplayName": "[LocalizedText Strings\\Objects:{{ModId}}_Egg_Tofu %PRESERVED_DISPLAY_NAME]",
+                  "PreserveId": "DROP_IN",
+                  "MinStack": 1
+                }
+              ],
+              "MinutesUntilReady": 350
+            },
+            {
+              "Id": "Milk_Tofu_small",
+              "Triggers": [
+                {
+                  "Id": "small_milk_1",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)184",
+                  "RequiredCount": 1
+                },
+                {
+                  "Id": "small_mlk_2",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)436",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Milk_Tofu",
+                  "ItemId": "(O){{ModId}}_Milk_Tofu",
+                  "ObjectInternalName": "{0} {{ModId}}_Milk_Tofu",
+                  "ObjectDisplayName": "[LocalizedText Strings\\Objects:{{ModId}}_Milk_Tofu %PRESERVED_DISPLAY_NAME]",
+                  "PreserveId": "DROP_IN",
+                  "MinStack": 1
+                }
+              ],
+              "MinutesUntilReady": 200
+            },
+            {
+              "Id": "Milk_Tofu_big",
+              "Triggers": [
+                {
+                  "Id": "big_milk_1",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)186",
+                  "RequiredCount": 1
+                },
+                {
+                  "Id": "big_mlk_2",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)438",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Milk_Tofu",
+                  "ItemId": "(O){{ModId}}_Milk_Tofu",
+                  "ObjectInternalName": "{0} {{ModId}}_Milk_Tofu",
+                  "ObjectDisplayName": "[LocalizedText Strings\\Objects:{{ModId}}_Milk_Tofu %PRESERVED_DISPLAY_NAME]",
+                  "PreserveId": "DROP_IN",
+                  "MinStack": 1,
+                  "Quality": 2
+                }
+              ],
+              "MinutesUntilReady": 200
+            },
+            {
+              "Id": "Milk_Tofu_default",
+              "Triggers": [
+                {
+                  "RequiredTags": [
+                    "category_milk"
+                  ],
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Milk_Tofu",
+                  "ItemId": "(O){{ModId}}_Milk_Tofu",
+                  "ObjectInternalName": "{0} {{ModId}}_Milk_Tofu",
+                  "ObjectDisplayName": "[LocalizedText Strings\\Objects:{{ModId}}_Milk_Tofu %PRESERVED_DISPLAY_NAME]",
+                  "PreserveId": "DROP_IN",
+                  "MinStack": 1
+                }
+              ],
+              "MinutesUntilReady": 200
+            },
+            {
+              "Id": "Tofu_default",
+              "Triggers": [
+                {
+                  "Id": "soybean_milk",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModId}}_Soybean_Milk",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "softTofu",
+                  "ItemId": "(O){{ModId}}_Soft_Tofu",
+                  "MinStack": 1
+                }
+              ],
+              "MinutesUntilReady": 200
+            },
+            {
+              "Id": "Fried_Tofu",
+              "Triggers": [
+                {
+                  "RequiredTags": [
+                    "oil_item"
+                  ],
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Fried_Tofu",
+                  "ItemId": "(O){{ModId}}_Fried_Tofu",
+                  "ObjectInternalName": "{0} {{ModId}}_Fried_Tofu",
+                  "ObjectDisplayName": "[LocalizedText Strings\\Objects:{{ModId}}_Fried_Tofu %PRESERVED_DISPLAY_NAME]",
+                  "PreserveId": "DROP_IN",
+                  "MinStack": 1,
+                  "CustomData": {
+                    "selph.ExtraMachineConfig.RequirementTags.1": "item_soft_tofu"
+                  },
+                  "CopyPrice": true,
+                  "PriceModifiers": [
+                    {
+                      "Id": "Fried_1",
+                      "Modification": "Add",
+                      "Amount": 90
+                    },
+                    {
+                      "Id": "Fried_2",
+                      "Modification": "Multiply",
+                      "Amount": 2.0
+                    }
+                  ]
+                }
+              ],
+              "MinutesUntilReady": 800
+            }
+          ],
+          "LightWhileWorking": {
+            "Radius": 1.5,
+            "Color": "DarkCyan"
+          },
+          "LoadEffects": [
+            {
+              "Sounds": [
+                {
+                  "Id": "furnace"
+                }
+              ],
+              "Frames": [1, 2, 3, 4],
+              "Interval": 80
+            }
+          ],
+          "WorkingEffects": [
+            {
+              "Frames":  [1, 2, 3, 4],
+              "Interval": 80
+            }
+          ],
+          "WorkingEffectChance": 1,
+          "ShowNextIndexWhileWorking": true
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC)16",
+        "OutputRules"
+      ],
+      "Entries": {
+          "{{ModId}}_Firm_Tofu": {
+            "Id": "Firm_Tofu",
+            "Triggers": [
+              {
+                "RequiredItemId": "(O){{ModId}}_Soft_Tofu"
+              }
+            ],
+            "OutputItem": [
+              {
+                "ItemId": "(O){{ModId}}_Firm_Tofu"
+              }
+            ],
+            "MinutesUntilReady": 3200
+          },
+          "{{ModId}}_Stone_Tofu": {
+            "Id": "Stone_Tofu",
+            "Triggers": [
+              {
+                "RequiredItemId": "(O){{ModId}}_Firm_Tofu"
+              }
+            ],
+            "OutputItem": [
+              {
+                "ItemId": "(O){{ModId}}_Stone_Tofu"
+              }
+            ],
+            "MinutesUntilReady": 4800
+          },
+          "{{ModId}}_Iron_Tofu": {
+            "Id": "Iron_Tofu",
+            "Triggers": [
+              {
+                "RequiredItemId": "(O){{ModId}}_Stone_Tofu"
+              }
+            ],
+            "OutputItem": [
+              {
+                "ItemId": "(O){{ModId}}_Iron_Tofu"
+              }
+            ],
+            "MinutesUntilReady": 6400
+          },
+          "{{ModId}}_Iridium_Tofu": {
+            "Id": "Iron_Tofu",
+            "Triggers": [
+              {
+                "RequiredItemId": "(O){{ModId}}_Iron_Tofu"
+              }
+            ],
+            "OutputItem": [
+              {
+                "ItemId": "(O){{ModId}}_Iridium_Tofu"
+              }
+            ],
+            "MinutesUntilReady": 8000
+          }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC)FishSmoker",
+        "OutputRules"
+      ],
+      "Entries": {
+          "{{ModId}}_Smoked_Tofu": {
+            "Id": "Smoked_Tofu",
+            "Triggers": [
+                {
+                  "RequiredTags": [
+                    "edible_tofu_item",
+                    "!smoked_item",
+                    "!item_dried_tofu",
+                    "!category_cooking"
+                  ],
+                  "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+              {
+                "ItemId": "(O){{ModId}}_Smoked_Tofu",
+                "ObjectInternalName": "{0} {{ModId}}_Smoked_Tofu",
+                "ObjectDisplayName": "[LocalizedText Strings\\Objects:{{ModId}}_Smoked_Tofu %PRESERVED_DISPLAY_NAME]",
+                "PreserveId": "DROP_IN",
+                "MinStack": 1,
+                "CopyPrice": true,
+                "CopyQuality": true,
+                "PriceModifiers": [
+                  {
+                    "Id": "Smoked_1",
+                    "Modification": "Multiply",
+                    "Amount": 2.0
+                  }
+                ]
+              }
+            ],
+            "MinutesUntilReady": 50
+          }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC)Dehydrator",
+        "OutputRules"
+      ],
+      "Entries": {
+          "{{ModId}}_Dried_Tofu": {
+            "Id": "Dried_Tofu",
+            "Triggers": [
+                {
+                  "RequiredTags": [
+                    "edible_tofu_item",
+                    "!smoked_item",
+                    "!item_dried_tofu",
+                    "!category_cooking"
+                  ],
+                  "RequiredCount": 5
+                }
+            ],
+            "OutputItem": [
+              {
+                "ItemId": "(O){{ModId}}_Dried_Tofu",
+                "ObjectInternalName": "{0} {{ModId}}_Dried_Tofu",
+                "ObjectDisplayName": "[LocalizedText Strings\\Objects:{{ModId}}_Dried_Tofu %PRESERVED_DISPLAY_NAME]",
+                "PreserveId": "DROP_IN",
+                "MinStack": 1,
+                "CustomData": {
+                  "selph.ExtraMachineConfig.CopyColor": "true"
+                },
+                "CopyPrice": true,
+                "PriceModifiers": [
+                  {
+                    "Id": "Dried_1",
+                    "Modification": "Multiply",
+                    "Amount": 7.5
+                  },
+                  {
+                    "Id": "Dried_2",
+                    "Modification": "Add",
+                    "Amount": 25
+                  }
+                ]
+              }
+            ],
+            "MinutesUntilReady": 1600
+          }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC)15",
+        "OutputRules"
+      ],
+      "Entries": {
+          "{{ModId}}_Stinky_Tofu": {
+            "Id": "Stinky_Tofu",
+            "Triggers": [
+              {
+                "RequiredItemId": "(O){{ModId}}_Soft_Tofu"
+              }
+            ],
+            "OutputItem": [
+              {
+                "ItemId": "(O){{ModId}}_Stinky_Tofu"
+                }
+            ],
+            "MinutesUntilReady": 4000
+          }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC)19",
+        "OutputRules"
+      ],
+      "Entries": {
+          "soybean2oil": {
+            "Id": "soybean2oil",
+            "Triggers": [
+              {
+                "RequiredItemId": "(O){{ModId}}_Soybean"
+              }
+            ],
+            "OutputItem": [
+              {
+                "ItemId": "(O)247"
+                }
+            ],
+            "MinutesUntilReady": 1000
+          }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC)12",
+        "OutputRules"
+      ],
+      "Entries": {
+          "{{ModId}}_Fruit_Soymilk": {
+            "Id": "Stinky_Tofu",
+            "Triggers": [
+              {
+                "RequiredItemId": "(O)344"
+              }
+            ],
+            "OutputItem": [
+              {
+                "ItemId": "(O){{ModId}}_Fruit_Soymilk",
+                "ObjectInternalName": "{0} {{ModId}}_Fruit_Soymilk",
+                "ObjectDisplayName": "[LocalizedText Strings\\Objects:{{ModId}}_Fruit_Soymilk %PRESERVED_DISPLAY_NAME]",
+                "PreserveId": "DROP_IN",
+                "MinStack": 1,
+                "CustomData": {
+                  "selph.ExtraMachineConfig.CopyColor": "true",
+                  "selph.ExtraMachineConfig.RequirementTags.1": "item_soymilk",
+                  "selph.ExtraMachineConfig.InheritPreserveId": "true",
+                  "selph.ExtraMachineConfig.UnflavoredDisplayNameOverride": "{{i18n:Fruit_Soymilk_name}}"
+                },
+                "CopyPrice": true,
+                "PriceModifiers": [
+                  {
+                    "Id": "Soymilk_1",
+                    "Modification": "Add",
+                    "Amount": 120
+                  },
+                  {
+                    "Id": "Soymilk_2",
+                    "Modification": "Multiply",
+                    "Amount": 3
+                  }
+                ]
+                }
+            ],
+            "MinutesUntilReady": 10000
+          }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC)114",
+        "OutputRules"
+      ],
+      "Entries": {
+          "BurningTofu": {
+            "Id": "Burn_Tofu",
+            "Triggers": [
+              {
+                "RequiredItemId": "(O){{ModId}}_Soft_Tofu"
+              }
+            ],
+            "OutputItem": [
+              {
+                "ItemId": "(O)382"
+                }
+            ],
+            "MinutesUntilReady": 30
+          }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC)163",
+        "OutputRules"
+      ],
+      "Entries": {
+          "{{ModId}}_Milk_Tofu": {
+            "Id": "Milk_Tofu",
+            "ItemId":"{{ModId}}_Milk_Tofu",
+            "Triggers": [
+              {
+                "Id": "ItemPlacedInMachine",
+                "Trigger": "ItemPlacedInMachine",
+                "RequiredItemId": "{{ModId}}_Milk_Tofu",
+                "RequiredCount": 1
+              }
+            ],
+            "UseFirstValidOutput": false,
+            "OutputItem": [
+              {
+                "CustomData": {
+                  "AgingMultiplier": "2"
+                },
+                "OutputMethod": "StardewValley.Objects.Cask, Stardew Valley: OutputCask",
+                "PriceModifierMode": "Stack",
+                "Id": "Default",
+                "Quality": -1,
+                "StackModifierMode": "Stack",
+                "QualityModifierMode": "Stack"
+              }
+            ],
+            "MinutesUntilReady": -1,
+            "DaysUntilReady": -1,
+            "InvalidCountMessage": null,
+            "RecalculateOnCollect": false
+          }
+        }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Buildings",
+      "TargetField": [
+        "Mill",
+        "ItemConversions"
+      ],
+      "Entries": {
+        "{{ModId}}_Soybean_Milk": {
+          "Id": "{{ModId}}_Soybean_Milk",
+          "SourceChest": "Input",
+          "DestinationChest": "Output",
+          "RequiredTags": [
+            "item_soybean"
+          ],
+          "ProducedItems": [
+            {
+              "ItemId": "(O){{ModId}}_Soybean_Milk",
+              "MinStack": 1
+            },
+            {
+              "ItemId": "(O){{ModId}}_Bean_Dregs_Bar",
+              "MinStack": 1
+            }
+          ],
+          "MaxDailyConversions": -1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+﻿{
+  "Name": "Friends Forever 永远的朋友",
+  "Author": "Isaac S.",
+  "Version": "1.2.3",
+  "Description": "让友谊永远不会衰退！",
+  "UniqueID": "IsaacS.FriendsForever",
+  "EntryDll": "FriendsForever.dll",
+  "UpdateKeys": ["Nexus:1738"],
+  "MinimumApiVersion": "2.10.2",
+  "Dependencies": []
+}

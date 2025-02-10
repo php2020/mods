@@ -1,0 +1,10 @@
+﻿{
+  "Name": "TimeSpeed 时间流速",
+  "Author": "cantorsdust and Pathoschild",
+  "Version": "2.7.10",
+  "Description": "让你控制游戏中的时间流：加速、减速或完全冻结。",
+  "UniqueID": "cantorsdust.TimeSpeed",
+  "EntryDll": "TimeSpeed.dll",
+  "MinimumApiVersion": "4.1.10",
+  "UpdateKeys": ["Nexus:169"]
+}

@@ -1,0 +1,23 @@
+{
+  "Changes": [
+    {
+      "LogName": "Load Sprite for Gourmet Table Cloth",
+      "Action": "Load",
+      "Target": "Mods\\{{ModId}}\\Gourmet_Table_Cloth",
+      "FromFile": "assets/objects/Gourmet_Table_Cloth.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/BigCraftables",
+      "Entries": {
+        "{{ModId}}_Gourmet_Table_Cloth": {
+          "Name": "Gourmet Table Cloth",
+          "DisplayName": "{{i18n:Gourmet_Table_Cloth_DisplayName}}",
+          "Description": "{{i18n:Gourmet_Table_Cloth_Description}}",
+          "Texture": "Mods\\{{ModId}}\\Gourmet_Table_Cloth",
+          "SpriteIndex": 0
+        }
+      }
+    }
+  ]
+}

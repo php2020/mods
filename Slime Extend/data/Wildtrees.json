@@ -1,0 +1,59 @@
+{
+  "Changes": [
+    {
+      "LogName": "Load Sprite for Slime Tree",
+      "Action": "Load",
+      "Target": "Mods\\{{ModId}}\\slime_tree",
+      "FromFile": "assets/Slime_Tree.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/WildTrees",
+      "Entries": {
+        "Slime_Seed": {
+          "Textures": [
+            {
+              "Texture": "Mods\\{{ModId}}\\slime_tree",
+              "Season": "spring"
+            },
+            {
+              "Texture": "Mods\\{{ModId}}\\slime_tree",
+              "Season": "summer"
+            },
+            {
+              "Texture": "Mods\\{{ModId}}\\slime_tree",
+              "Season": "fall"
+            },
+            {
+              "Texture": "Mods\\{{ModId}}\\slime_tree",
+              "Season": "winter"
+            }
+          ],
+          "SeedItemId": "(O){{ModId}}_Slime_Seed",
+          "GrowsInWinter": true,
+          "DropWoodOnChop": false,
+          "GrowsMoss": false,
+          "ChopItems": [
+            {
+              "Id": "Slime",
+              "ItemId": "(O)766",
+              "MinStack": 60,
+              "MaxStack": 100,
+              "Quality": -1
+            }
+            ],
+          "TapItems": [
+            {
+            "DaysUntilReady": 2,
+            "Id": "Slime",
+            "MinStack": 12,
+            "MaxStack": 24,
+            "Quality": -1,
+            "ItemId": "(O)766"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

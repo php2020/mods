@@ -1,0 +1,25 @@
+{
+  "Format": "2.0",
+  "Changes": [
+    {
+      "Action": "Include",
+      "FromFile": "data/Objects.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "data/BigCraftable.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "data/CookingRecipes.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "data/Recipes.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "data/Machine.json"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "Name": "Elle's Cuter Horses 小马皮肤",
+  "Author": "Elle/Junimods",
+  "Version": "1.0.0",
+  "Description": "为马添加新皮肤！",
+  "UniqueID": "Elle.CuterHorses",
+  "UpdateKeys": ["Nexus:20042"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

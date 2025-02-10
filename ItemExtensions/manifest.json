@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Item extensions 物品扩展",
+  "Author": "mistyspring",
+  "Version": "1.12.1",
+  "Description": "允许更多项目功能的框架。",
+  "UniqueID": "mistyspring.ItemExtensions",
+  "EntryDll": "ItemExtensions.dll",
+  "MinimumApiVersion": "4.1.0-beta",
+  "UpdateKeys": ["nexus:20357"],
+  "Dependencies": [
+    {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "IsRequired": false
+    }
+  ]
+}

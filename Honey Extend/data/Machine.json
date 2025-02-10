@@ -1,0 +1,326 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "Entries": {
+        "(BC){{ModId}}_Heavy_Bee_House": {
+          "OutputRules": [
+            {
+              "Id": "More_Honey",
+              "Triggers": [
+                {
+                  "RequiredTags": [
+                    "category_flowers"
+                  ],
+                  "RequiredCount": 1
+                },
+                {
+                  "RequiredTags": [
+                    "category_fruits"
+                  ],
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Honey",
+                  "ItemId": "FLAVORED_ITEM Honey DROP_IN_ID",
+                  "MinStack": 2,
+                  "MaxStack": 2,
+                  "CopyPrice": true,
+                  "PriceModifiers": [
+                    {
+                      "Id": "Honey1",
+                      "Modification": "Multiply",
+                      "Amount": 2.0
+                    },
+                    {
+                      "Id": "Honey1",
+                      "Modification": "Add",
+                      "Amount": 100
+                    }
+                  ]
+                }
+              ],
+              "MinutesUntilReady": 6100
+            },
+            {
+              "Id": "Blue_Honey",
+              "Triggers": [
+                {
+                  "Id": "Mystic_Syrup",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "MysticSyrup",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Get_Blue_Honey",
+                  "ItemId": "{{ModId}}_Mystic_Honey",
+                  "MinStack": 2,
+                  "MaxStack": 2,
+                  "CopyPrice": true,
+                  "PriceModifiers": [
+                    {
+                      "Id": "Blue_Honey1",
+                      "Modification": "Multiply",
+                      "Amount": 2.0
+                    },
+                    {
+                      "Id": "Blue_Honey1",
+                      "Modification": "Add",
+                      "Amount": 100
+                    }
+                  ]
+                }
+              ],
+              "MinutesUntilReady": 6100
+            },
+            {
+              "Id": "Royal_Jelly",
+              "Triggers": [
+                {
+                  "Id": "Royal_Jelly",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)340",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Royal_Jelly",
+                  "ItemId": "{{ModId}}_Royal_Jelly",
+                  "CopyPrice": true,
+                  "PriceModifiers": [
+                    {
+                      "Id": "Royal_Jelly",
+                      "Modification": "Multiply",
+                      "Amount": 2.0
+                    }
+                  ],
+                  "CustomData": {
+                    "selph.ExtraMachineConfig.InheritPreserveId": "true",
+                    "selph.ExtraMachineConfig.UnflavoredDisplayNameOverride": "{{i18n:Royal_Jelly_name}}"
+                  },
+                  "ObjectInternalName": "{0} {{ModId}}_Royal_Jelly",
+                  "ObjectDisplayName": "[LocalizedText Strings\\Objects:{{ModId}}_Royal_Jelly %PRESERVED_DISPLAY_NAME]"
+                }
+              ],
+              "MinutesUntilReady": 6100
+            },
+            {
+              "Id": "Blue_Royal_Jelly",
+              "Triggers": [
+                {
+                  "Id": "Blue_Royal_Jelly",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "{{ModId}}_Mystic_Honey",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Blue_Royal_Jelly",
+                  "ItemId": "{{ModId}}_Mystic_Royal_Jelly",
+                  "CopyPrice": true,
+                  "PriceModifiers": [
+                    {
+                      "Id": "Blue_Royal_Jelly",
+                      "Modification": "Multiply",
+                      "Amount": 2.0
+                    }
+                  ]
+                }
+              ],
+              "MinutesUntilReady": 6100
+            },
+            {
+              "Id": "Sugar_and_Honey",
+              "Triggers": [
+                {
+                  "Id": "Put_Sugar",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)245",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Get_Honey",
+                  "ItemId": "(O)340",
+                  "MinStack": 2,
+                  "MaxStack": 2
+                }
+              ],
+              "MinutesUntilReady": 6100
+            },
+            {
+              "Id": "Coal_and_Meat",
+              "Triggers": [
+                {
+                  "Id": "Coal",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)382",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Meat",
+                  "ItemId": "(O)684",
+                  "MinStack": 10,
+                  "MaxStack": 30
+                }
+              ],
+              "MinutesUntilReady": 180
+            }
+          ],
+          "ShowNextIndexWhenReady": true,
+          "LoadEffects": [
+            {
+              "Sounds": [
+                {
+                  "Id": "Ship"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC)12",
+        "OutputRules"
+      ],
+      "Entries": {
+          "{{ModId}}_Royal_Mead": {
+            "Id": "Royal_Mead",
+            "Triggers": [
+              {
+                "RequiredItemId": "{{ModId}}_Royal_Jelly",
+                "RequiredCount": 1
+              }
+            ],
+            "OutputItem": [
+              {
+                "ItemId": "(O){{ModId}}_Royal_Mead",
+                "CopyPrice": true,
+                "PriceModifiers": [
+                  {
+                    "Id": "Blue_Royal_Jelly",
+                    "Modification": "Multiply",
+                    "Amount": 3.0
+                  }
+                ],
+                "CustomData": {
+                  "selph.ExtraMachineConfig.InheritPreserveId": "true",
+                  "selph.ExtraMachineConfig.UnflavoredDisplayNameOverride": "{{i18n:Royal_Mead_name}}"
+                },
+                "ObjectInternalName": "{0} {{ModId}}_Royal_Mead",
+                "ObjectDisplayName": "[LocalizedText Strings\\Objects:{{ModId}}_Royal_Mead %PRESERVED_DISPLAY_NAME]"
+              }
+            ],
+            "MinutesUntilReady": 10000
+          },
+          "{{ModId}}_Mystic_Mead":{
+          "Id": "Mystic_Royal_Mead",
+          "Triggers": [
+            {
+              "RequiredItemId": "{{ModId}}_Mystic_Royal_Jelly",
+              "RequiredCount": 1
+            }
+          ],
+          "OutputItem": [
+            {
+              "ItemId": "{{ModId}}_Mystic_Mead",
+              "CopyPrice": true,
+              "PriceModifiers": [
+                {
+                  "Id": "Blue_Mystic_Royal_Jelly",
+                  "Modification": "Multiply",
+                  "Amount": 3.0
+                }
+              ]
+            }
+          ],
+          "MinutesUntilReady": 10000
+        }
+        }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC)163",
+        "OutputRules"
+      ],
+      "Entries": {
+          "{{ModId}}_Royal_Mead": {
+            "Id": "Royal_Mead",
+            "ItemId":"{{ModId}}_Royal_Mead",
+            "Triggers": [
+              {
+                "Id": "ItemPlacedInMachine",
+                "Trigger": "ItemPlacedInMachine",
+                "RequiredItemId": "{{ModId}}_Royal_Mead",
+                "RequiredCount": 1
+              }
+            ],
+            "UseFirstValidOutput": false,
+            "OutputItem": [
+              {
+                "CustomData": {
+                  "AgingMultiplier": "2"
+                },
+                "OutputMethod": "StardewValley.Objects.Cask, Stardew Valley: OutputCask",
+                "PriceModifierMode": "Stack",
+                "Id": "Default",
+                "Quality": -1,
+                "StackModifierMode": "Stack",
+                "QualityModifierMode": "Stack"
+              }
+            ],
+            "MinutesUntilReady": -1,
+            "DaysUntilReady": -1,
+            "InvalidCountMessage": null,
+            "RecalculateOnCollect": false
+          },
+          "{{ModId}}_Mystic_Mead": {
+            "Id": "Mystic_Mead",
+            "ItemId":"{{ModId}}_Mystic_Mead",
+            "Triggers": [
+              {
+                "Id": "ItemPlacedInMachine",
+                "Trigger": "ItemPlacedInMachine",
+                "RequiredItemId": "{{ModId}}_Mystic_Mead",
+                "RequiredCount": 1
+              }
+            ],
+            "UseFirstValidOutput": false,
+            "OutputItem": [
+              {
+                "CustomData": {
+                  "AgingMultiplier": "2"
+                },
+                "OutputMethod": "StardewValley.Objects.Cask, Stardew Valley: OutputCask",
+                "PriceModifierMode": "Stack",
+                "Id": "Default",
+                "Quality": -1,
+                "StackModifierMode": "Stack",
+                "QualityModifierMode": "Stack"
+              }
+            ],
+            "MinutesUntilReady": -1,
+            "DaysUntilReady": -1,
+            "InvalidCountMessage": null,
+            "RecalculateOnCollect": false
+          }
+        }
+    }
+  ]
+}
