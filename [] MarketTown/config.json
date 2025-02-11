@@ -75,6 +75,5 @@
   "AdvanceAutoFixNpc": false,
   "AdvanceDebug": false,
   "MoneyModifier": 1.0,
-  "IslandMoneyModifier": 1.0,
-  "HardMode": 0.05
+  "IslandMoneyModifier": 1.0
 }
