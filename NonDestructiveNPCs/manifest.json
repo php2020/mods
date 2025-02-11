@@ -1,0 +1,10 @@
+﻿{
+    "Name": "Non Destructive NPCs - 1.6 Unofficial update 非破坏性NPC",
+    "Author": "Madara Uchiha - IamSaulC",
+    "Version": "1.6",
+    "Description": "NPC不再破坏其路径上放置的物体。他们反而会穿过它们。",
+    "UniqueID": "IamSaulC.NonDestructiveNPCs",
+    "EntryDll": "NonDestructiveNPCs.dll",
+    "MinimumApiVersion": "3.1.0",
+    "UpdateKeys": []
+}

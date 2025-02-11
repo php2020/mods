@@ -1,0 +1,194 @@
+{
+  "Format": "2.0.0",
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Mods/d5a1lamdtd.MarketTown.Item/RestaurantDecor",
+      "FromFile": "assets/RestaurantDecor.png"
+    },{
+      "Action": "Load",
+      "Target": "Mods/d5a1lamdtd.MarketTown.Item/MarketLog",
+      "FromFile": "assets/MarketLog.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Furniture",
+      "Entries": {
+        "MT.Objects.RestaurantDecor": "Restaurant Decor/decor/2 2/1 1/1/300/-1/Restaurant Decor/0/Mods\\d5a1lamdtd.MarketTown.Item\\RestaurantDecor/true",
+        "MT.Objects.MarketLog": "Market Log/decor/1 2/1 1/1/300/-1/市场日志/0/Mods\\d5a1lamdtd.MarketTown.Item\\MarketLog/false"
+
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "MT.Objects.MarketLicense": {
+          "Name": "Market License",
+          "Displayname": "集镇营业执照",
+          "Description": "放置在农场建筑内的招牌上，将该建筑用作可以出售所有物品的商店。更改将在第二天生效。天堂岛上的建筑不需要执照。",
+          "Type": "Basic",
+          "Price": 7500,
+          "Texture": "{{InternalAssetKey: assets/MarketLicense.png}}",
+          "SpriteIndex": 0
+        },
+        "MT.Objects.RestaurantLicense": {
+          "Name": "Restaurant License",
+          "Displayname": "餐厅营业执照",
+          "Description": "放置在农场建筑内的招牌上，将该建筑用作餐厅并出售食品。更改将在第二天生效。天堂岛上的建筑不需要执照。",
+          "Type": "Basic",
+          "Price": 4000,
+          "Texture": "{{InternalAssetKey: assets/RestaurantLicense.png}}",
+          "SpriteIndex": 0
+        },
+        "MT.Objects.MuseumLicense": {
+          "Name": "Museum License",
+          "Displayname": "博物馆营业执照",
+          "Description": "放置在农场建筑内的招牌上，将该建筑注册为博物馆，供游客参观。更改将在第二天生效。天堂岛上的建筑不需要执照。",
+          "Type": "Basic",
+          "Price": 5000,
+          "Texture": "{{InternalAssetKey: assets/MuseumLicense.png}}",
+          "SpriteIndex": 0
+        },
+        "MT.Objects.InviteLetter": {
+          "Name": "Invite Letter",
+          "Displayname": "邀请函",
+          "Description": "将此信交给您想邀请到您住所的客人。",
+          "Type": "Basic",
+          "Price": 200,
+          "ContextTags": [
+            "not_giftable"
+          ],
+          "Texture": "{{InternalAssetKey: assets/InviteLetter.png}}",
+          "SpriteIndex": 0
+        },
+        "MT.Objects.CustomerNote": {
+          "Name": "Customer Note",
+          "Displayname": "顾客意见卡",
+          "Description": "将此卡片交给您的顾客，以收集他们对所售菜肴的意见。",
+          "Type": "Basic",
+          "Price": 20,
+          "ContextTags": [
+            "not_giftable"
+          ],
+          "Texture": "{{InternalAssetKey: assets/CustomerNote.png}}",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "MT.Objects.InviteLetter": "393 2 92 2 338 2/Field/MT.Objects.InviteLetter/false/default/",
+        "MT.Objects.CustomerNote": "771 5 92 2 382 1/Field/MT.Objects.CustomerNote/false/default/"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Universal_Like"
+          ],
+          "Value": "MT.Objects.InviteLetter MT.Objects.CustomerNote",
+          "Delimiter": " "
+        }
+      ]
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "DesertTrade",
+        "Items"
+      ],
+      "Entries": {
+        "MT.Objects.MarketLicense": {
+          "Id": "MT.Objects.MarketLicense",
+          "ItemId": "(O)MT.Objects.MarketLicense",
+          "Price": 15000,
+          "TradeItemId": 336,
+          "TradeItemAmount": 5,
+          "Condition": "PLAYER_HAS_MAIL any MT.MarketTownLicense received"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "Festival_StardewValleyFair_StarTokens",
+        "Items"
+      ],
+      "Entries": {
+        "MT.Objects.MarketLicense": {
+          "Id": "MT.Objects.MarketLicense",
+          "ItemId": "(O)MT.Objects.MarketLicense",
+          "Price": 3000,
+          "Condition": "PLAYER_HAS_MAIL any MT.MarketTownLicense received"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "Saloon",
+        "Items"
+      ],
+      "Entries": {
+        "MT.Objects.RestaurantLicense": {
+          "Id": "MT.Objects.RestaurantLicense",
+          "ItemId": "(O)MT.Objects.RestaurantLicense",
+          "Price": 8000,
+          "TradeItemId": 336,
+          "TradeItemAmount": 2,
+          "Condition": "PLAYER_HAS_MAIL any MT.RestaurantLicense received"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "AdventureShop",
+        "Items"
+      ],
+      "Entries": {
+        "MT.Objects.MuseumLicense": {
+          "Id": "MT.Objects.MuseumLicense",
+          "ItemId": "(O)MT.Objects.MuseumLicense",
+          "Price": 10000,
+          "Condition": "PLAYER_HAS_MAIL any MT.MuseumLicense received"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "Carpenter",
+        "Items"
+      ],
+      "Entries": {
+        "MT.Objects.RestaurantDecor": {
+          "Id": "MT.Objects.RestaurantDecor",
+          "ItemId": "(F)MT.Objects.RestaurantDecor",
+          "Price": 5000,
+          "TradeItemId": "(O)597",
+          "TradeItemAmount": 5,
+          "Condition": "PLAYER_HAS_MAIL any MT.RestaurantLicense received"
+        },
+        "MT.Objects.MarketLog": {
+          "Id": "MT.Objects.MarketLog",
+          "ItemId": "(F)MT.Objects.MarketLog",
+          "Price": 500
+        }
+      }
+    }
+  ]
+}
