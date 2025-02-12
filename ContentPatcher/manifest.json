@@ -1,10 +1,10 @@
 ﻿{
-    "Name": "Content Patcher 依赖文件",
-    "Author": "Pathoschild",
-    "Version": "2.5.1",
-    "MinimumApiVersion": "4.1.10",
-    "Description": "加载内容包，在不更改游戏文件的情况下编辑游戏数据、图像和地图.",
-    "UniqueID": "Pathoschild.ContentPatcher",
-    "EntryDll": "ContentPatcher.dll",
-    "UpdateKeys": ["Nexus:1915"]
+  "Name": "Content Patcher 加载内容包",
+  "Author": "Pathoschild",
+  "Version": "2.5.3",
+  "MinimumApiVersion": "4.1.10",
+  "Description": "加载内容包，在不更改游戏文件的情况下编辑游戏数据、图像和地图.",
+  "UniqueID": "Pathoschild.ContentPatcher",
+  "EntryDll": "ContentPatcher.dll",
+  "UpdateKeys": ["Nexus:1915"]
 }
