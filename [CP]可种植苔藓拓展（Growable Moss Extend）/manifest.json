@@ -1,10 +1,11 @@
 {
-	"Name": "[CP]Growable Moss Extend",
-	"Author": "skeleton",
-	"Description": "Add something.",
-	"Version": "1.0.0",
-	"UniqueID": "skeleton.GrowableMossExtendCP",
-	"ContentPackFor": {
-			"UniqueID": "Pathoschild.ContentPatcher"
-	}
+    "Name": "[CP]Growable Moss Extend 苔藓扩展",
+    "Author": "skeleton",
+    "Description": "添加一些关于苔藓的扩展",
+    "Version": "1.0.0",
+    "UpdateKeys": ["Nexus:25929"],
+    "UniqueID": "skeleton.GrowableMossExtendCP",
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
 }
