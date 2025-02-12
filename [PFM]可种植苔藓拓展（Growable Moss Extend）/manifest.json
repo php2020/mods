@@ -1,10 +1,11 @@
 {
-	"Name": "[PFM]Growable Moss Extend",
-	"Author": "skeleton",
-	"Description": "Add something.",
-	"Version": "1.0.0",
-	"UniqueID": "skeleton.GrowableMossExtendPFM",
-	"ContentPackFor": {
-			"UniqueID": "Digus.ProducerFrameworkMod"
-	}
+    "Name": "[PFM]Growable Moss Extend 可种植苔藓拓展",
+    "Author": "skeleton",
+    "Description": "添加可种植苔藓拓展",
+    "Version": "1.0.0",
+    "UpdateKeys": ["nexus:25929"],
+    "UniqueID": "skeleton.GrowableMossExtendPFM",
+    "ContentPackFor": {
+        "UniqueID": "Digus.ProducerFrameworkMod"
+    }
 }
