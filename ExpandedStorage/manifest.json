@@ -7,7 +7,7 @@
    */
     "$schema": "https://smapi.io/schemas/manifest.json",
     "UniqueID": "furyx639.ExpandedStorage",
-    "Name": "Expanded Storage",
+    "Name": "Expanded Storage 箱子框架",
     "Author": "LeFauxMatt",
     "Version": "3.3.0",
     "Description": "为游戏添加新型箱子的框架",
