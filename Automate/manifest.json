@@ -1,7 +1,7 @@
 ﻿{
   "Name": "Automate 自动化",
   "Author": "Pathoschild",
-  "Version": "2.3.2",
+  "Version": "2.3.3",
   "MinimumApiVersion": "4.1.10",
   "Description": "通过将机器、果树等连接到箱子，可以自动制作它们。",
   "UniqueID": "Pathoschild.Automate",
