@@ -1,11 +1,12 @@
 {
-  "Name": "yet another farm map",
-  "Author": "DaisyNiko",
-  "Version": "2.3.3",
-  "UniqueID": "DaisyNiko.yafm",
-  "MinimumApiVersion": "2.11.0",
-  "UpdateKeys": ["Nexus:4159"],
-  "ContentPackFor": {
-    "UniqueID": "Pathoschild.ContentPatcher"
-  }
+    "Name": "yet another farm map 规则农场地图",
+    "Description": "比较规则农场地图默认替换了森林农场",
+    "Author": "DaisyNiko",
+    "Version": "2.3.3",
+    "UniqueID": "DaisyNiko.yafm",
+    "MinimumApiVersion": "2.11.0",
+    "UpdateKeys": ["Nexus:4159"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
 }
