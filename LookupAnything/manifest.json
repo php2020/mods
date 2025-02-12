@@ -1,10 +1,10 @@
 ﻿{
-    "Name": "Lookup Anything 查看一切",
-    "Author": "Pathoschild",
-    "Version": "1.47.0",
-    "MinimumApiVersion": "4.1.10",
-    "Description": "按F1按钮查看有关任何内容的元数据。",
-    "UniqueID": "Pathoschild.LookupAnything",
-    "EntryDll": "LookupAnything.dll",
-    "UpdateKeys": ["Nexus:541"]
+  "Name": "Lookup Anything F1查看一切",
+  "Author": "Pathoschild",
+  "Version": "1.48.0",
+  "MinimumApiVersion": "4.1.10",
+  "Description": "按F1按钮查看有关任何内容的元数据。",
+  "UniqueID": "Pathoschild.LookupAnything",
+  "EntryDll": "LookupAnything.dll",
+  "UpdateKeys": ["Nexus:541"]
 }
