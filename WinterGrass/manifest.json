@@ -1,0 +1,10 @@
+﻿{
+  "Name": "Winter Grass 冬草",
+  "Author": "Cat",
+  "Version": "2.0.3",
+  "Description": "草能在冬天生长",
+  "UniqueID": "cat.wintergrass",
+  "MinimumApiVersion": "3.8.0",
+  "EntryDll": "WinterGrass.dll",
+  "UpdateKeys": ["Nexus:1601"]
+}
