@@ -1,8 +1,9 @@
 ﻿{
   "Name": "Lookup Anything F1查看一切",
   "Author": "Pathoschild",
-  "Version": "1.48.0",
+  "Version": "1.48.1",
   "MinimumApiVersion": "4.1.10",
+  "MinimumGameVersion": "1.6.15",
   "Description": "按F1按钮查看有关任何内容的元数据。",
   "UniqueID": "Pathoschild.LookupAnything",
   "EntryDll": "LookupAnything.dll",
