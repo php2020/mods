@@ -1,9 +1,9 @@
 ﻿{
-  "Name": "Fast Animations 加速动画",
+  "Name": "Fast Animations 快速动画",
   "Author": "Pathoschild",
-  "Version": "1.13.7",
+  "Version": "1.13.8",
   "MinimumApiVersion": "4.1.10",
-  "Description": "在游戏里加速各种.",
+  "Description": "加速游戏的一些动画，可以自由设定",
   "UniqueID": "Pathoschild.FastAnimations",
   "EntryDll": "FastAnimations.dll",
   "UpdateKeys": ["Nexus:1089"]
