@@ -1,0 +1,15 @@
+{
+  "Name": "Better Cabin 更好联机小屋",
+  "Author": "weizinai",
+  "Version": "0.9.0",
+  "Description": "这个模组赋予了联机小屋更多的功能。",
+  "UniqueID": "weizinai.BetterCabin",
+  "EntryDll": "BetterCabin.dll",
+  "UpdateKeys": ["Nexus: 25368"],
+  "Dependencies": [
+    {
+      "UniqueID": "spacechase0.GenericModConfigMenu",
+      "IsRequired": false
+    }
+  ]
+}
