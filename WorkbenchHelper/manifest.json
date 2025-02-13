@@ -1,0 +1,10 @@
+{
+  "Name": "WorkbenchHelper 更好的工作台",
+  "Author": "Ballom41",
+  "Version": "1.2.3",
+  "Description": "将允许工作台使用所有直接连接的箱子（或其他可配置选项），并在工作台UI中添加按钮",
+  "UniqueID": "Ballom41.WorkbenchHelper",
+  "EntryDll": "WorkbenchHelper.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": ["Nexus:21294"]
+}
