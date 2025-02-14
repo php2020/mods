@@ -1,0 +1,9 @@
+﻿{
+  "too-late": "[过季] {0}",
+  "too-late-message": "太晚了以至于不能种植 {0}!",
+  "animals-outside": "{0}你还有动物在外面!",
+  "animals-need-petting": "{0}你还有动物未抚摸!",
+  "animals-need-harvesting": "{0}你还有动物未收获!",
+  "plants-need-watering": "{0}你还有植物需要浇水!",
+  "plants-ready-for-harvest": "{0}你还有植物需要收获!"
+}
