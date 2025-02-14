@@ -39,7 +39,7 @@
             "Action": "EditData",
             "Target": "Data/Machines",
             "When": { "HasMod |contains=skeleton.HoneyExtendCP": true },
-            "TargetField": ["skeleton.HoneyExtendCP", "OutputRules"],
+            "TargetField": ["(BC){{ModId}}_Heavy_Bee_House", "OutputRules"],
             "Entries": {
                 "Gem_Berry_Honey": {
                     "Id": "Gem_Berry_Honey",
