@@ -1,2 +1,13 @@
 **/.DS_Store
 .DS_Store
+BetterCabin/config.json
+ContentPatcher/config.json
+DestroyableBushes/config.json
+FastAnimations/config.json
+ItemExtensions/config.json
+LookupAnything/config.json
+**/markettowndata.json
+NPCMapLocations/config/*
+UIInfoSuite2/data/
+WorkbenchHelper/config.json
+Automate/config.json
