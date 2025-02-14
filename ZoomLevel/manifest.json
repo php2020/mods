@@ -1,0 +1,21 @@
+﻿{
+  "Name": "Zoom Level 缩放级别",
+  "Author": "thespbgamer",
+  "Version": "4.0.1",
+  "Description": "使用简单的配置文件调整缩放级别和 UI 级别以超越游戏限制，从而更改缩放量和缩放上限",
+  "UniqueID": "thespbgamer.ZoomLevel",
+  "EntryDll": "ZoomLevel.dll",
+  "MinimumApiVersion": "4.1.10",
+  "UpdateKeys": [
+    "GitHub:thespbgamer/ZoomLevel",
+    "Nexus:7363",
+    "CurseForge:714275"
+  ],
+  "Dependencies": [
+    {
+      "UniqueID": "spacechase0.GenericModConfigMenu",
+      "MinimumVersion": "1.14.1",
+      "IsRequired": false
+    }
+  ]
+}
