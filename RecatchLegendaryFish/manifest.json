@@ -1,0 +1,10 @@
+﻿{
+  "Name": "Recatch Legendary Fish 重新捕获鱼王",
+  "Author": "cantorsdust and Pathoschild",
+  "Version": "1.8.9",
+  "Description": "让你可以多次钓起鱼王而不是仅一次",
+  "UniqueID": "cantorsdust.RecatchLegendaryFish",
+  "EntryDll": "RecatchLegendaryFish.dll",
+  "MinimumApiVersion": "4.1.10",
+  "UpdateKeys": ["Nexus:172"]
+}
