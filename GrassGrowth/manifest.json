@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Grass Growth 草的生长",
+  "Author": "bcmpinc",
+  "Version": "7.1",
+  "Description": "草可以在你的农场到处生长，并且可以调整生长速度",
+  "UniqueID": "bcmpinc.GrassGrowth",
+  "EntryDll": "GrassGrowth.dll",
+  "MinimumApiVersion": "3.18.0",
+  "UpdateKeys": ["Nexus:2732"],
+  "Dependencies": [
+    {
+      "UniqueID": "bcmpinc.StardewHack",
+      "MinimumVersion": "7.1"
+    }
+  ]
+}

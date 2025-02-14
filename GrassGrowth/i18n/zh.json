@@ -1,0 +1,14 @@
+{
+  "DisableGrowthName": "禁用生长",
+  "DisableGrowthTooltip": "是否完全抑制草的生长和扩散。",
+  "GrowEverywhereName": "到处生长",
+  "GrowEverywhereTooltip": "草是否几乎在任何地方都能扩散。如果为假，草的扩散将仅限于可耕种的地块。",
+  "GrowthChanceName": "生长机会",
+  "GrowthChanceTooltip": "草生长或扩散的机会。",
+  "SpreadChanceName": "扩散机会",
+  "SpreadChanceTooltip": "草在每个相邻地块上扩散的机会。",
+  "DailyGrowthName": "每日生长",
+  "DailyGrowthTooltip": "草每天生长的迭代次数。",
+  "MonthlyGrowthName": "每月生长",
+  "MonthlyGrowthTooltip": "每月开始时草生长的附加迭代次数。"
+}
