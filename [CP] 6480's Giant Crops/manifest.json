@@ -1,0 +1,13 @@
+{
+  "Name": "6480's Giant Crops 巨型作物",
+  "Author": "6480",
+  "Version": "2.1.2",
+  "MinimumApiVersion": "4.0.0",
+  "Description": "可以使任何作物有几率变成巨型作物",
+  "UniqueID": "6480.giantcrops",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "2.0.0"
+  },
+  "UpdateKeys": ["Nexus: 5221"]
+}
