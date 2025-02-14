@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Better Junimos 更好的祝尼魔",
+  "Author": "hawkfalcon,ceruleandeep",
+  "Version": "3.1.0",
+  "Description": "让你的祝尼魔（来自祝尼魔小屋）自动播种、施肥等等！",
+  "UniqueID": "hawkfalcon.BetterJunimos",
+  "EntryDll": "BetterJunimos.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": ["Nexus:2221"],
+  "Dependencies": [
+    { "UniqueID": "Pathoschild.ContentPatcher", "IsRequired": false }
+  ]
+}
