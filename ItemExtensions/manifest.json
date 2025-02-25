@@ -1,8 +1,8 @@
 ﻿{
   "Name": "Item extensions 物品扩展",
   "Author": "mistyspring",
-  "Version": "1.13.0",
-  "Description": "许更多项目功能的框架。",
+  "Version": "1.14.0",
+  "Description": "更多项目功能的框架。",
   "UniqueID": "mistyspring.ItemExtensions",
   "EntryDll": "ItemExtensions.dll",
   "MinimumApiVersion": "4.1.0-beta",
